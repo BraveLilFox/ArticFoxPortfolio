@@ -8,7 +8,11 @@
 
 /*LINKS INSIDE NAVBAR*/
 .navbar a{
-    float: left;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-50%, -50%);
     font-size: 20px;
     color: #95D9C3;
     text-align: center;
