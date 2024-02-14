@@ -8,21 +8,25 @@
 
 /*LINKS INSIDE NAVBAR*/
 .navbar a{
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50;
-    transform: translate(-50%, -50%);
+    float: left;
     font-size: 20px;
     color: #95D9C3;
     text-align: center;
-    padding: 14px;
+    padding: 30px;
     text-decoration: none;
 }
 
 /*ADD BACKGROUND COLOR ON LINKS FOR A HOVER*/
 .navbar a:hover{
     background-color: darkcyan;
+}
+
+.center-navbar a{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 body {
