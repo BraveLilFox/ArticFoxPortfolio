@@ -24,6 +24,7 @@
 
 .logo-navbar a{
     float: right;
+    border-bottom: none;
 }
 
 body {
