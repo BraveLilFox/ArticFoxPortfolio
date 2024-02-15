@@ -93,15 +93,6 @@ h1 {
     }
 }
 
-.contact-photo a{
-    float: center;
-    font-size: 30px;
-    color: #95D9C3;
-    text-align: center;
-    padding: 100px;
-    text-decoration: none;
-}
-
 .contact-photo {
     p {
         font-size: 25px;
