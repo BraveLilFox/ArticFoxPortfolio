@@ -101,5 +101,11 @@ h1 {
 }
 
 .contact-photo a{
+    float: left;
+    font-size: 30px;
+    color: #95D9C3;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
 }
     
