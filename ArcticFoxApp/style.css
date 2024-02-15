@@ -94,6 +94,7 @@ h1 {
         object-fit: contain;
         float: right;
         padding: 100px;
+        img-align: center;
     }
 }
     
