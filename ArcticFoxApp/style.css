@@ -56,8 +56,8 @@ h1 {
 
 .opening {
     img {
-        width: 600px;
-        height: 500px;
+        width: 400px;
+        height: 300px;
         object-fit: contain;
     }
 }
