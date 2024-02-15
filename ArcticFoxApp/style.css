@@ -27,6 +27,14 @@
     border-bottom: none;
 }
 
+.logo-navbar {
+    img {
+        width:50px;
+        height:50px;
+        object-fit: contain;
+    }
+}
+
 body {
     background-color: #5C6F68;
 }
@@ -45,6 +53,7 @@ h1 {
         width: 600px;
         height: 600px;
         object-fit: contain;
+    }
 }
 
 /*TEXT INSIDE OPENING*/
