@@ -81,6 +81,7 @@ h1 {
     overflow: hidden;
     background-color: #3333;
     font-family: 'Gill Sans';
+    display: inline-flex;
 }
 
 .contact-photo {
