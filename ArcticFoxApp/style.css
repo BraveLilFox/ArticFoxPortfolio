@@ -45,14 +45,28 @@ body {
 }
 
 h1 {
-    font-size: 75px;
-    color: #8AA393;
+    font-size: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate, blink 800ms steps(13) infinite normal;
+    border-right: 5px solid #333;
 }
 
-h1 {
-    i{
-        color: #A7FFF6;
-        text-decoration: underline;
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: black;
+    }
+    to {
+        border-color: transparent;
     }
 }
 
