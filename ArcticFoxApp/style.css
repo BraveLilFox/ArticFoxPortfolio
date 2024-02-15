@@ -40,10 +40,11 @@ h1 {
     color: #A4F9C8;
 }
 
-img {
-    width: 400px;
-    height: 300px;
-    object-fit: contain;
+.opening {
+    img {
+        width: 600px;
+        height: 300px;
+        object-fit: contain;
 }
 
 /*TEXT INSIDE OPENING*/
