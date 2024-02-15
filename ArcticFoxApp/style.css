@@ -10,16 +10,16 @@
 .navbar a{
     float: left;
     font-size: 30px;
-    color: #95D9C3;
+    color: #878E88;
     text-align: center;
     padding: 30px;
     text-decoration: none;
-    border-bottom: 1px solid #A4F9C8;
+    border-bottom: 1px solid #725752;
 }
 
 /*ADD BACKGROUND COLOR ON LINKS FOR A HOVER*/
 .navbar a:hover{
-    background-color: darkcyan;
+    background-color: #D4DFC7;
 }
 
 .logo-navbar a{
