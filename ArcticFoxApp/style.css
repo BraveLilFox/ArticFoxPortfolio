@@ -63,38 +63,6 @@ h1 {
     float: left;
 }
 
-.lines {
-    width: 400px;
-    background-color: #333;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.lines::before{
-    content: "";
-    position:absolute;
-    top:0%;
-    left:0%;
-    width:100%;
-    height:100%;
-    background: white;
-    animation: animate 5s linear infinite;
-}
-
-@keyframes mymove {
-    0%{
-        left:0;
-    }
-    50%{
-        left:100;
-    }
-    0%{
-        left:0;
-    }
-}
-
 .contact-photo {
     overflow: hidden;
     background-color: #3333;
@@ -111,12 +79,20 @@ h1 {
 }
 
 .contact-photo {
+    p {
+        font-size: 25px;
+        color: #95D9C3;
+        text-align: center;
+    }
+}
+
+.contact-photo {
     img {
         height: 511px;
         width: 409px;
         object-fit: contain;
         float: right;
-        padding: 100px;
+        padding: 50px;
     }
 }
     
