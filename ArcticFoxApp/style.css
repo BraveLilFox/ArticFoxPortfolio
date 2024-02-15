@@ -1,4 +1,4 @@
-
+#
 /*NAVBAR CONTAINER*/
 .navbar {
     overflow: hidden;
@@ -94,7 +94,7 @@ h1 {
 }
 
 .contact-photo a{
-    float: left;
+    float: center;
     font-size: 30px;
     color: #95D9C3;
     text-align: center;
