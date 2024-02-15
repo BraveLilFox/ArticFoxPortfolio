@@ -2,7 +2,7 @@
 /*NAVBAR CONTAINER*/
 .navbar {
     overflow: hidden;
-    background-color: #5C6F68;
+    background-color: #878E88;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -10,7 +10,7 @@
 .navbar a{
     float: left;
     font-size: 30px;
-    color: #878E88;
+    color: #725752;
     text-align: center;
     padding: 30px;
     text-decoration: none;
