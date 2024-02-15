@@ -107,9 +107,15 @@ h1 {
         color: #95D9C3;
         text-align: left;
         vertical-align: middle;
+        padding: 50px;
     }
 }
 
+.contact-photo {
+    .photo {
+        float: right;
+    }
+}
 .contact-photo {
     img {
         height: 490px;
@@ -118,6 +124,7 @@ h1 {
         float: right;
         img-align: center;
         vertical-align: middle;
+        padding: 50px;
     }
 }
     
