@@ -49,7 +49,7 @@ h1 {
     color: FEF6C9;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 2s steps(13) infinite alternate, blink 800ms steps(13) infinite normal;
+    animation: typewriter 5s steps(15) 1 alternate, blink 800ms steps(13) infinite normal;
     border-right: 5px solid #333;
 }
 
