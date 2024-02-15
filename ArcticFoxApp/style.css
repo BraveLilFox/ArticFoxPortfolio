@@ -112,7 +112,7 @@ h1 {
 .contact-photo {
     img {
         height: 400px;
-        width: 300px;
+        width: 350px;
         object-fit: contain;
         float: right;
         padding: 50px;
