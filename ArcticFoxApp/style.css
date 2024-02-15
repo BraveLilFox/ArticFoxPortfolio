@@ -115,6 +115,7 @@ h1 {
         width: 300px;
         object-fit: contain;
         float: right;
+        padding: 50px;
     }
 }
     
