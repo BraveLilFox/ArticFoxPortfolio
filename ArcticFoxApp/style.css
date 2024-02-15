@@ -48,6 +48,12 @@ h1 {
     color: #A4F9C8;
 }
 
+h1 {
+    i{
+        color: #A7FFF6;
+    }
+}
+
 .opening {
     img {
         width: 600px;
