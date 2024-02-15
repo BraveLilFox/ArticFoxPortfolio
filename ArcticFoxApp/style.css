@@ -83,6 +83,7 @@ h1 {
     background-color: #3333;
     font-family: 'Gill Sans';
     display: inline-flex;
+    margin: auto;
 }
 
 .contact-photo {
