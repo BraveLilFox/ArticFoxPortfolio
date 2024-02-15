@@ -45,12 +45,13 @@ body {
 
 h1 {
     font-size: 75px;
-    color: #A4F9C8;
+    color: #8AA393;
 }
 
 h1 {
     i{
         color: #A7FFF6;
+        text-decoration: double;
     }
 }
 
