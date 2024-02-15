@@ -55,13 +55,6 @@ h1 {
     }
 }
 
-.opening {
-    img {
-        width: 400px;
-        height: 300px;
-        object-fit: contain;
-    }
-}
 
 /*TEXT INSIDE OPENING*/
 .opening a{
@@ -100,3 +93,13 @@ h1 {
         left:0;
     }
 }
+
+.contact-photo {
+    overflow: hidden;
+    background-color: #5C6F68;
+    font-family: 'Gill Sans';
+}
+
+.contact-photo a{
+}
+    
