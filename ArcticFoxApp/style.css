@@ -108,4 +108,12 @@ h1 {
     padding: 30px;
     text-decoration: none;
 }
+
+.contact-photo {
+    img {
+        height: 400px;
+        width: 300px;
+        object-fit: contain;
+    }
+}
     
