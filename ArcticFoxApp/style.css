@@ -82,7 +82,8 @@ h1 {
     p {
         font-size: 25px;
         color: #95D9C3;
-        text-align: center;
+        text-align: left;
+        padding: 50px;
     }
 }
 
