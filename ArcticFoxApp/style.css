@@ -84,6 +84,7 @@ h1 {
         color: #95D9C3;
         text-align: left;
         padding: 50px;
+        vertical-align: middle;
     }
 }
 
@@ -93,8 +94,9 @@ h1 {
         width: 409px;
         object-fit: contain;
         float: right;
-        padding: 100px;
+        padding: 50px;
         img-align: center;
+        vertical-align: middle;
     }
 }
     
