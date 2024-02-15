@@ -40,6 +40,12 @@ h1 {
     color: #A4F9C8;
 }
 
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
 /*TEXT INSIDE OPENING*/
 .opening a{
     font-size: 20px;
