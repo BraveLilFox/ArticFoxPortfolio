@@ -82,7 +82,7 @@ h1 {
     animation: animate 5s linear infinite;
 }
 
-@keyframes animate{
+@keyframes mymove {
     0%{
         left:0;
     }
