@@ -60,6 +60,7 @@ h1 {
 .opening a{
     font-size: 20px;
     float: left;
+    padding: none;
 }
 
 .lines {
