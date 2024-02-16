@@ -91,7 +91,7 @@ h1 {
     display: inline-flex;
     width: 100%;
     margin: auto;
-    border: 5px solid black;
+    border-top: 5px dotted black;
 }
 
 .contact-photo {
