@@ -91,7 +91,16 @@ h1 {
     display: inline-flex;
     width: 100%;
     margin: auto;
-    border-top: 5px dotted black;
+    border-top: 5px dashed black, animation: typewriter 5s steps(15) 1 alternate;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 75%;
+    }
 }
 
 .contact-photo {
