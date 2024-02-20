@@ -23,7 +23,9 @@ ul.menu li {
 }
 
 .logo-image img {
-    width: 100%;
+    width: 20px;
+    length: 20px;
+    object-fit: contain;
 }
 
 body {
