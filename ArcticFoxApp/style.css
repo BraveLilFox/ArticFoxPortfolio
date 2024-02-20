@@ -15,7 +15,7 @@ header {
 /*LINKS INSIDE NAVBAR*/
 .navbar a{
     float: center;
-    font-size: 30px;
+    font-size: 15px;
     color: #725752;
     text-align: center;
     text-decoration: none;
@@ -35,15 +35,15 @@ header {
     
 .logo-navbar {
     border-bottom: none;
-    width: 90px;
-    length: 90px;
+    width: 50px;
+    length: 50px;
     float: right;
     margin: auto;
 }
 
 .logo-navbar {
     img {
-        float:center;
+        float:right;
         width:90px;
         height:90px;
     }
