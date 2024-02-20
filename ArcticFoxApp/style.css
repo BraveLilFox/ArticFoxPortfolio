@@ -9,7 +9,7 @@ header {
 .navbar {
     overflow: hidden;
     display: flex;
-    background-color: #878E88;
+    background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 1px solid #725752;
 }
