@@ -33,6 +33,7 @@ header {
     .first-links a{
         padding: 10px;
         text-align: center;
+        margin: auto;
     }
 }
     
@@ -42,6 +43,7 @@ header {
     length: 30px;
     float: right;
     border: 2px solid black;
+    margin: auto;
 }
 
 .logo-navbar {
@@ -49,6 +51,7 @@ header {
         float:right;
         width:30px;
         height:30px;
+        margin: auto;
     }
 }
 
