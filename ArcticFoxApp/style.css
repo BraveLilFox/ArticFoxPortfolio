@@ -2,7 +2,7 @@
 /*NAVBAR CONTAINER*/
 .navbar {
     overflow: hidden;
-    display: inline-flex;
+    display: flex;
     background-color: #878E88;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
