@@ -27,8 +27,7 @@
     }
 }
     
-.logo-navbar a{
-    float: right;
+.logo-navbar {
     border-bottom: none;
     width: 30px;
     length: 30px;
