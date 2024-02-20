@@ -1,4 +1,9 @@
 #
+header {
+    margin-top: 40px;
+    position: relative;
+}
+
 /*NAVBAR CONTAINER*/
 .navbar {
     overflow: hidden;
