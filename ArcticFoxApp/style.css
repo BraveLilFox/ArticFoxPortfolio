@@ -37,8 +37,8 @@ header {
     
 .logo-navbar {
     border-bottom: none;
-    width: 50px;
-    length: 50px;
+    width: 30px;
+    length: 30px;
     float: right;
     margin: auto;
 }
@@ -46,8 +46,8 @@ header {
 .logo-navbar {
     img {
         float:right;
-        width:90px;
-        height:90px;
+        width:30px;
+        height:30px;
     }
 }
 
