@@ -1,40 +1,29 @@
-#
-/*NAVBAR CONTAINER*/
-.navbar {
-    overflow: hidden;
-    background-color: #878E88;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+nav {
+    display: flex;
+    align-items: center;
+    background: #878E88;
 }
 
-/*LINKS INSIDE NAVBAR*/
-.navbar a{
-    float: center;
-    font-size: 30px;
-    color: #725752;
-    text-align: center;
-    padding: 30px;
-    text-decoration: none;
-    border-bottom: 1px solid #725752;
+ul.menu {
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    flex-grow: 1;
+    list-style-type: none;
+    padding: 0;
 }
 
-/*ADD BACKGROUND COLOR ON LINKS FOR A HOVER*/
-.navbar a:hover{
-    background-color: #D4DFC7;
+ul.menu li {
+    padding: 10px;
 }
 
-.logo-navbar a{
-    float: right;
-    border-bottom: none;
-    width: 30px;
-    height: 30px;
+.logo-image {
+    flex-basis: 20%;
+    font-size: 0;
 }
 
-.logo-navbar {
-    img {
-        width:100%;
-        height:100%;
-        object-fit: contain;
-    }
+.logo-image img {
+    width: 100%;
 }
 
 body {
