@@ -17,9 +17,11 @@ ul.menu li {
     padding: 10px;
 }
 
-img {
-    width:20px;
-    height: 20px;
+.logo-image {
+    float: right;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
 }
 
 body {
