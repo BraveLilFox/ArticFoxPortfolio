@@ -41,7 +41,7 @@ header {
     width: 30px;
     length: 30px;
     float: right;
-    border: black;
+    border: 2px solid black;
 }
 
 .logo-navbar {
