@@ -18,13 +18,7 @@ ul.menu li {
 }
 
 .logo-image {
-    flex-basis: 20%;
-    font-size: 0;
-}
-
-.logo-image {
-    img {
-    }
+    background-image: src("logo.png");
 }
 
 body {
