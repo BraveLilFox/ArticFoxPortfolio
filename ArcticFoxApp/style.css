@@ -64,6 +64,7 @@ body {
 .opening {
     font-family: 'Courier New', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 1px solid #3333;
+    background-image: url("IMG_7638.jpeg");
 }
 
 h1 {
