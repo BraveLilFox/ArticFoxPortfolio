@@ -20,6 +20,8 @@ ul.menu li {
 .logo-image {
     flex-basis: 20%;
     font-size: 0;
+    width: 20px;
+    length: 20px;
 }
 
 .logo-image img {
