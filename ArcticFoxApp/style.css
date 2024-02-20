@@ -12,6 +12,7 @@ header {
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-bottom: 1px solid #725752;
+    margin: auto;
 }
 
 /*LINKS INSIDE NAVBAR*/
@@ -40,7 +41,6 @@ header {
     width: 30px;
     length: 30px;
     float: right;
-    margin: auto;
 }
 
 .logo-navbar {
