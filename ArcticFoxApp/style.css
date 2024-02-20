@@ -17,7 +17,7 @@ header {
 /*LINKS INSIDE NAVBAR*/
 .navbar a{
     float: center;
-    font-size: 15px;
+    font-size: 20px;
     color: #725752;
     text-align: center;
     text-decoration: none;
@@ -30,7 +30,7 @@ header {
 
 .navbar {
     .first-links a{
-        padding: 30px;
+        padding: 10px;
         text-align: center;
     }
 }
