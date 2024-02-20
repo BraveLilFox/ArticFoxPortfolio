@@ -22,7 +22,7 @@
 }
 
 .navbar {
-    .first-links {
+    .first-links a{
         padding: 30px;
     }
 }
@@ -30,6 +30,8 @@
 .logo-navbar a{
     float: right;
     border-bottom: none;
+    width: 30px;
+    length: 30px;
 }
 
 .logo-navbar {
