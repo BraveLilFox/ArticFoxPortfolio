@@ -62,7 +62,7 @@ body {
 
 .opening {
     font-family: 'Courier New', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 75%;
+    height: 80%;
     width: 100%;
     
 }
@@ -74,7 +74,6 @@ h1 {
     overflow: hidden;
     animation: typewriter 5s steps(15) 1 alternate, blink 800ms steps(13) infinite normal;
     border-right: 5px solid #333;
-    vertical-align: middle;
 }
 
 @keyframes typewriter {
@@ -106,6 +105,7 @@ h1 {
 .opening a{
     font-size: 20px;
     float: left;
+    vertical-align: middle;
 }
 
 .contact-photo {
