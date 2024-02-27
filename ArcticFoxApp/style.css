@@ -10,8 +10,7 @@ header {
     overflow: hidden;
     display: flex;
     background-color: #878E88;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-bottom: 1px solid #725752;
+    font-family: 'Courier New', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    border-bottom: 1px solid #725752;
     margin: auto;
 }
 
@@ -62,7 +61,7 @@ body {
 
 .opening {
     font-family: 'Courier New', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 80%;
+    height: 85%;
     width: 100%;
     
 }
@@ -151,5 +150,15 @@ h1 {
         vertical-align: middle;
         padding: 50px;
     }
+}
+.parent {
+    background-color: white;
+}
+footer {
+    background-color: white;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    font-family: 'Courier New', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
     
