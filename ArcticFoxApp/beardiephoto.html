@@ -94,8 +94,11 @@
                     </fieldset>
                     <fieldset>
                         <legend>What's your beardies personality?</legend>
-                        <label><input type="checkbox" id="curious" for="curious"> Curious</label>
+                        <input type="checkbox" id="curious" name="personality"> <label for="curious">Curious</label>
                             <!--one of the most used inputs for online questions is the CHECKBOX-->
+                            <!--another way to incorporate the text for the button is using the FOR attribute inside the label element-->
+                                <!--for this to work make the FOR attribute match the ID attribute within the input element-->
+                            <!--NAME attributes while not being seen make it easier for the server to process-->
                     </fieldset>
                     <input type="text" name="beardiephotourl" placeholder="beardie photo url" required>
                 <!--the input element allows you several ways to collect data from a web form-->
