@@ -77,13 +77,24 @@
                 <form action="kkpotchka415@gmail.com">
                 <!--web form to collect information from users-->
                 <!--action attribute indicates where the info you collect should be sent to-->
+                    <label><input type="radio" id="red" name="colors">Red</label>
+                    <label><input type="radio" id="orange" name="colors"></label>
+                    <label><input type="radio" id="yellow" name="colors"></label>
+                    <label><input type="radio" id="white" name="colors"></label>
+                    <label><input type="radio" id="brown" name="colors"></label>
+                        <!--label elements are used to help associate the text with the button, so clicking the word also clicks the button-->
+                        <!--Radio buttons are used for questions where you want the user to answer one out of multiple choices-->
+                            <!--adding the SAME name attribute to each of them makes it so only one can be clicked-->
                     <input type="text" name="beardiephotourl" placeholder="beardie photo url" required>
                 <!--the input element allows you several ways to collect data from a web form-->
-                    <!--since there are many forms of input you have to specify with the type attribute-->
-                        <!--types can consist of password fields, reset buttons, or a control to let users select a file from their computer-->
-                    <!--in order for a form's data to be accessed by the location you must specify the NAME attribute and assign it a value-->
-                    <!--PLACEHOLDER text is used to give a hint about what kind of data to enter-->
-                        <!--to prevent a user from submitting a form when used the REQUIRED attribute. make sure there are spaces between to separate each attribute-->
+                        <!--since there are many forms of input you have to specify with the type attribute-->
+                            <!--types can consist of password fields, reset buttons, or a control to let users select a file from their computer-->
+                        <!--in order for a form's data to be accessed by the location you must specify the NAME attribute and assign it a value-->
+                        <!--PLACEHOLDER text is used to give a hint about what kind of data to enter-->
+                            <!--to prevent a user from submitting a form when used the REQUIRED attribute. make sure there are spaces between to separate each attribute-->
+                    <button type="submit">Submit</button>
+                        <!--to create clickable button-->
+                            <!--make sure to add button type so there is no confusion involved-->
                 </form>
             </section>
         </main>
