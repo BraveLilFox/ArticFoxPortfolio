@@ -28,17 +28,17 @@
             <!--only use h1 ONCE per page and place everything of lower importance in h2 through h6, this-->
             <!--this will help uniformity-->
             <p>See more <a href="freebeardiephotoapp.html" target="_blank">beardie photos</a> in our gallery</p>
-            <!--this creates a paragraph of text on web apps-->
-            <!--you can turn any type of text into a link-->
-            <!--you can link to another page with the anchor (a) element-->
-            <!--a links text MUST be placed between the opening and closing tags to be shown-->
-            <!--the target attribute specifies where to display the linked document-->
+                <!--this creates a paragraph of text on web apps-->
+                <!--you can turn any type of text into a link-->
+                <!--you can link to another page with the anchor (a) element-->
+                <!--a links text MUST be placed between the opening and closing tags to be shown-->
+                <!--the target attribute specifies where to display the linked document-->
             <a href="freebeardiephotoapp.html"><img src="IMG_0714.jpeg" alt="picture of flynn the bearded dragon"></a>
-            <!--IMG elements have an opening tag without a closing tag, this is called a self closing tag-->
-            <!--HTML attributes are special words used inside the opening tag of an element to control the elements behavior-->
-            <!--ALL IMG elements should have an ALT attribute-->
-            <!--ALT attributes text is used for screen readers to improve accessibility if the image fails to load-->
-                <!--You can even turn photos into links-->
+                <!--IMG elements have an opening tag without a closing tag, this is called a self closing tag-->
+                <!--HTML attributes are special words used inside the opening tag of an element to control the elements behavior-->
+                <!--ALL IMG elements should have an ALT attribute-->
+                <!--ALT attributes text is used for screen readers to improve accessibility if the image fails to load-->
+                    <!--You can even turn photos into links-->
             </section>
 
             <section>
@@ -77,14 +77,15 @@
                 <form action="kkpotchka415@gmail.com">
                 <!--web form to collect information from users-->
                 <!--action attribute indicates where the info you collect should be sent to-->
-                    <label><input type="radio" id="red" name="colors">Red</label>
-                    <label><input type="radio" id="orange" name="colors"></label>
-                    <label><input type="radio" id="yellow" name="colors"></label>
-                    <label><input type="radio" id="white" name="colors"></label>
-                    <label><input type="radio" id="brown" name="colors"></label>
+                    <label><input type="radio" id="red" name="colors" value="red">Red</label>
+                    <label><input type="radio" id="orange" name="colors" value="orange">Orange</label>
+                    <label><input type="radio" id="yellow" name="colors" value="yellow">Yellow</label>
+                    <label><input type="radio" id="white" name="colors" value="white">White</label>
+                    <label><input type="radio" id="brown" name="colors" value="brown">Brown</label>
                         <!--label elements are used to help associate the text with the button, so clicking the word also clicks the button-->
                         <!--Radio buttons are used for questions where you want the user to answer one out of multiple choices-->
                             <!--adding the SAME name attribute to each of them makes it so only one can be clicked-->
+                        <!--when selecting one of these radio buttons and submitting it reads the NAME and VALUE to tell you when a person has selected-->
                     <input type="text" name="beardiephotourl" placeholder="beardie photo url" required>
                 <!--the input element allows you several ways to collect data from a web form-->
                         <!--since there are many forms of input you have to specify with the type attribute-->
