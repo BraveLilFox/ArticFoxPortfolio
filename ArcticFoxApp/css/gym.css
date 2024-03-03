@@ -2,6 +2,9 @@
 body {
   background-color: burlywood;
 }
+#schedule {
+  width: 300px;
+}
 h1, h2, p {
   text-align: center;
 }
