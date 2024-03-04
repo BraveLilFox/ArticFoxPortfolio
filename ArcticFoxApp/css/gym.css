@@ -1,12 +1,11 @@
 body {
-    background-color: brown;
+    /*background-color: brown;*/
 }
 h1, h2, p {
     text-align: center;
 }
 .schedule {
-    width: 50%;
-    length: 50%;
+    width: 80%;
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
