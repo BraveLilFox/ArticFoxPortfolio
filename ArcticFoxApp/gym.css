@@ -1,0 +1,12 @@
+body {
+    /*
+    background-color: purple;
+    */
+}
+h1, h2, p {
+    text-align: center;
+}
+gym {
+    width: 80%;
+    background-color: burlywood;
+}
