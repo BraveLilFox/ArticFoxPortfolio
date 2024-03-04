@@ -5,7 +5,8 @@ h1, h2, p {
   text-align: center;
 }
 .schedule {
-  width: 80%;
+  width: 50%;
+  length: 50%;
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
