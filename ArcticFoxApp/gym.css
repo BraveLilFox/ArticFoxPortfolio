@@ -4,7 +4,9 @@ body {
 h1, h2, p {
     text-align: center;
 }
-gym {
-    width: 80%;
-    background-color: burlywood;
+body {
+    gym {
+        width: 80%;
+        background-color: burlywood;
+    }
 }
