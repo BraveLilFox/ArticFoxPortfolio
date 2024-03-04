@@ -1,13 +1,14 @@
 body {
-  background-color: brown;
+    background-color: brown;
 }
 h1, h2, p {
-  text-align: center;
+    text-align: center;
 }
 .schedule {
-  width: 50%;
-  length: 50%;
-  background-color: burlywood;
-  margin-left: auto;
-  margin-right: auto;
+    width: 50%;
+    length: 50%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
 }
