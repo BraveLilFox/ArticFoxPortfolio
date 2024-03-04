@@ -1,14 +1,14 @@
 body {
-    background-color: white;
+    overflow: hidden;
+    background-color: purple;
 }
 h1, h2, p {
     text-align: center;
 }
 .schedule {
     width: 80%;
-    background-color: burlywood;
+    /*background-color: burlywood;*/
     margin-left: auto;
     margin-right: auto;
     border-style: dotted;
-    background-overflow: hidden;
 }
