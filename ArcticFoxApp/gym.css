@@ -8,5 +8,6 @@ body {
     gym {
         width: 80%;
         background-color: burlywood;
+        border: dotted;
     }
 }
