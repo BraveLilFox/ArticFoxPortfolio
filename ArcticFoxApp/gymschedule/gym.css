@@ -10,6 +10,8 @@ h1, h2, p {
     background-color: #313638;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .set p {
     display: inline-block;
