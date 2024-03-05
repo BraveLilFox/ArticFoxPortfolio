@@ -6,11 +6,9 @@ body {
 h1, h2, p {
   text-align: center;
 }
-body {
-  gym {
+#gym {
     width: 80%;
     background-color: burlywood;
     border: dotted;
-  }
 }
   
