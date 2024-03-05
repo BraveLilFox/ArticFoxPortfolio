@@ -17,3 +17,7 @@ h1, h2, p {
 .muscle {
     text-align: right;
 }
+.set p {
+    display: inline-block;
+    /*this makes block elements act more like inline elements*/
+}
