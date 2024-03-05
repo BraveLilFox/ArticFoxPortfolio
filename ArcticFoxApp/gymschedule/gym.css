@@ -35,8 +35,9 @@ h1, h2 {
 }
 .set p {
     display: inline-block;
-    top-margin: 5px;
-    bottom-margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 .lower, .push {
     text-align: left;
