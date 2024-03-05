@@ -49,3 +49,22 @@ h1, h2 {
 }
 .bottom-line {
     margin-top: 25px;
+}
+/*FOOTER*/
+footer {
+    font-size: 14px;
+}
+/*using PSEUDO-SELECTORS we can program the text to be different colors on certain events*/
+a {
+    color: grey;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: #E0DFD5;
+}
+a:active {
+    color: #E0DFD5;
+}
+    
