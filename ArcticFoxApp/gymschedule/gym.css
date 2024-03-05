@@ -19,5 +19,4 @@ h1, h2, p {
 }
 .set p {
     display: inline-block;
-    /*this makes block elements act more like inline elements*/
 }
