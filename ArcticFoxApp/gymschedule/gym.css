@@ -57,7 +57,7 @@ footer {
     font-size: 14px;
 }
 .address {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 /*using PSEUDO-SELECTORS we can program the text to be different colors on certain events*/
 a {
