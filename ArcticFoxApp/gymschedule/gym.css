@@ -24,6 +24,11 @@ h1, h2, p {
     margin-left: auto;
     padding: 20px;
 }
+hr {
+    height: 3px;
+    background-color: grey;
+    border-color: grey;
+}
 h1, h2 {
     font-family: impact, serif;
 }
