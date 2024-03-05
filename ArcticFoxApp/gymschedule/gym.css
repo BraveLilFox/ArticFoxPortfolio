@@ -14,4 +14,6 @@ h1, h2, p {
 .workout {
     text-align: left;
 }
-.
+.muscle {
+    text-align: right;
+}
