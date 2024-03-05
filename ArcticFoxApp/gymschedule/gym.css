@@ -13,9 +13,11 @@ h1, h2, p {
 }
 .workout {
     text-align: left;
+    width: 50%;
 }
 .muscle {
     text-align: right;
+    width: 50%;
 }
 .set p {
     display: inline-block;
