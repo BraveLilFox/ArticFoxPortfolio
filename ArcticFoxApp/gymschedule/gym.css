@@ -2,6 +2,9 @@ body {
     background-image: url("IMG_0808.jpeg");
     font-family: sans-serif;
 }
+.established {
+    font-style: italic;
+}
 h1, h2, p {
   text-align: center;
   color: #E0DFD5;
@@ -16,7 +19,7 @@ h1, h2, p {
     padding: 20px;
 }
 h1, h2 {
-    font-family: impact;
+    font-family: impact, serif;
 }
 .set p {
     display: inline-block;
