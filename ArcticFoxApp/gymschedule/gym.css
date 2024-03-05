@@ -3,7 +3,7 @@ body {
 }
 h1, h2, p {
   text-align: center;
-  text-color: #E0DFD5;
+  font-color: #E0DFD5;
 }
 #gym {
     width: 80%;
