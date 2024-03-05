@@ -5,8 +5,10 @@ h1, h2, p {
   text-align: center;
   color: #E0DFD5;
 }
-#gym {
+.gym {
     width: 80%;
     background-color: #313638;
+    margin-right: auto;
+    margin-left: auto;
 }
   
