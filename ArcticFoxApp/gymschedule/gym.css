@@ -7,6 +7,8 @@ h1, h2, p {
 }
 .gym {
     width: 80%;
+    max-width: 500px;
+    /*makes a MAX width number so that the width is either 80% or a max of 500px*/
     background-color: #313638;
     margin-right: auto;
     margin-left: auto;
