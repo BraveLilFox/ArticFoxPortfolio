@@ -1,0 +1,62 @@
+al#
+header {
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+}
+
+/*NAVBAR CONTAINER*/
+.navbar {
+    overflow: hidden;
+    display: flex;
+    background-color: #878E88;
+    font-family: 'Courier New', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    border-bottom: 1px solid #725752;
+    margin: auto;
+}
+
+/*LINKS INSIDE NAVBAR*/
+.navbar a{
+    float: center;
+    font-size: 20px;
+    color: #725752;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*ADD BACKGROUND COLOR ON LINKS FOR A HOVER*/
+.navbar a:hover{
+    background-color: #D4DFC7;
+}
+
+.navbar {
+    .first-links a{
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        float: left
+    }
+}
+    
+.logo-navbar {
+    border-bottom: none;
+    width: 40px;
+    length: 40px;
+    float: right;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.logo-navbar {
+    img {
+        float:right;
+        width:40px;
+        height:40px;
+        margin: auto;
+    }
+}
+
+body {
+    background-color: #878E88;
+}
+    
