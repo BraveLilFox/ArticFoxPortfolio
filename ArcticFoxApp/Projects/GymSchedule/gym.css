@@ -1,0 +1,76 @@
+body {
+    background-color: #313638;
+    background-image: url("IMG_0808.jpeg");
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+}
+.established {
+    font-style: italic;
+}
+h1, h2, p {
+  text-align: center;
+  color: #E0DFD5;
+}
+.gym {
+    width: 80%;
+    max-width: 500px;
+    /*makes a MAX width number so that the width is either 80% or a max of 500px*/
+    background-color: #313638;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+hr {
+    height: 2px;
+    background-color: grey;
+    border-color: grey;
+}
+h1, h2 {
+    font-family: impact, serif;
+}
+.set p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.push, .pull, .leg, .upper, .lower {
+    text-align: left;
+    width: 75%;
+}
+.amount {
+    text-align: right;
+    width: 25%;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+/*FOOTER*/
+footer {
+    font-size: 14px;
+}
+.address {
+    margin-bottom: 5px;
+}
+/*using PSEUDO-SELECTORS we can program the text to be different colors on certain events*/
+a {
+    color: grey;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: #E0DFD5;
+}
+a:active {
+    color: #E0DFD5;
+}
+    
