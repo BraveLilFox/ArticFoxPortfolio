@@ -1,3 +1,10 @@
 h1 {
   text-align: center;
 }
+.marker {
+  backgound-color: red;
+  margin: 10px auto;
+  /*when you shorthand the margin values there are 2 values
+  top and bottom to the first one
+  left and right to the second one*/
+}
