@@ -41,11 +41,11 @@ h1, h2 {
     margin-bottom: 5px;
     font-size: 18px;
 }
-.lower, .push {
+.push, .pull, .leg, .upper, .lower {
     text-align: left;
     width: 75%;
 }
-.muscle {
+.amount {
     text-align: right;
     width: 25%;
 }
