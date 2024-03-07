@@ -6,6 +6,10 @@ h1 {
   background-color: rgb(255,255,255);
 }
 
+.primary {
+  border: 3px solid;
+}
+
 .cap {
   width:60px;
   height: 25px;
