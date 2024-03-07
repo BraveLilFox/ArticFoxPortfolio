@@ -12,11 +12,11 @@ h1 {
   margin: 10px auto;
 }
 .red {
-  background-color: rgb(255,0,0);
+  background: rgb(255,0,0);
 }
 .green {
   background-color: #007F00;
 }
 .blue {
-  background-color: 240 100% 50%;
+  background-color: hsl(240,100%,50%);
 }
