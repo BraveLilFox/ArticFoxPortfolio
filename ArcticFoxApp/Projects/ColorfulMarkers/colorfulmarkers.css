@@ -2,6 +2,8 @@ h1 {
   text-align: center;
 }
 .marker {
+  width: 200px;
+  height: 25px;
   backgound-color: red;
   margin: 10px auto;
 }
