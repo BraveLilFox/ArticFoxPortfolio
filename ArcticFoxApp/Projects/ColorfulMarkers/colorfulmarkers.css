@@ -2,10 +2,6 @@ h1, h2 {
   text-align: center;
 }
 
-p {
-  vertical-align: middle;
-}
-
 .container {
   background-color: rgb(255,255,255);
 }
@@ -24,6 +20,7 @@ p {
   width: 110px;
   height: 25px;
   text-align: center;
+  line-height:25px;
   background-color: rgba(255,255,255,50%);
   border-left: 10px double rgba(0,0,0,75%);
 }
