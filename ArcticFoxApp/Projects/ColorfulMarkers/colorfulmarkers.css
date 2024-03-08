@@ -20,6 +20,7 @@ h1, h2 {
   width: 110px;
   height: 25px;
   text-align: center;
+  vertical-align: middle;
   background-color: rgba(255,255,255,50%);
   border-left: 10px double rgba(0,0,0,75%);
 }
