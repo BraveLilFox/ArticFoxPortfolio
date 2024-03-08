@@ -8,7 +8,7 @@ h1, h2 {
 
 .primary, .secondary, .tertiary {
   border: 3px solid;
-  margin: auto;
+  margin: 10px;
 }
 
 .cap {
@@ -20,7 +20,7 @@ h1, h2 {
   width: 110px;
   height: 25px;
   background-color: rgba(255,255,255,50%);
-  border-left: 10px solid black;
+  border-left: 10px double rgba(0,0,0,75%);
 }
 
 .sleeve, .cap {
