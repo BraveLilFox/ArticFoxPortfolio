@@ -54,7 +54,7 @@ h1, h2, h3{
 }
 
 .yellow {
-  background-color: rgb(255,255,0);
+  background: linear-gradient(rgb(77,77,52),rgb(242,242,99),rgb(43,43,18));
 }
 
 .cyan {
