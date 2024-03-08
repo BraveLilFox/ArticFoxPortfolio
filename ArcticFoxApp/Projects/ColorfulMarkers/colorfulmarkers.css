@@ -43,3 +43,7 @@ h1, h2, h3{
 .blue {
   background: linear-gradient(hsl(186,76%,16%),hsl(223,90%,60%),hsl(240,56%,42%));
 }
+
+.yellow {
+  background-color: rgb(255,255,0);
+}
