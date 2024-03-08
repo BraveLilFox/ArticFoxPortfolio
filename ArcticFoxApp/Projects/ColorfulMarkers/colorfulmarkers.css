@@ -62,5 +62,5 @@ h1, h2, h3{
 }
 
 .magenta {
-  background-color: rgb(255,0,255);
+  background: linear-gradient(hsl(300,21%,27%),hsl(300,85%,61%),hsl(300,52%,30%));
 }
