@@ -19,14 +19,9 @@ h1, h2 {
 .sleeve {
   width: 110px;
   height: 25px;
+  justify-content: center;
   background-color: rgba(255,255,255,50%);
   border-left: 10px double rgba(0,0,0,75%);
-}
-
-.label {
-  width: 55px;
-  height:25px;
-  text-align: center;
 }
 
 .sleeve, .cap {
