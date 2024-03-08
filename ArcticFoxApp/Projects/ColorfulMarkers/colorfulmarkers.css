@@ -6,6 +6,8 @@ h1, h2, h3{
 .container {
   background-color: rgb(255,255,255);
   width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .primary, .secondary, .tertiary {
