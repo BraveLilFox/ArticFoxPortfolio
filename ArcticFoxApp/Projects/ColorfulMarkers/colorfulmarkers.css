@@ -45,6 +45,7 @@ h1, h2, h3{
 }
 .red {
   background: linear-gradient(rgb(122,74,14),rgb(245,62,113),rgb(162,27,27));
+  box-shadow: 5px 5px 5px 0 rgba(255,0,0,0.5);
 }
 .green {
   background: linear-gradient(#55680D,#71F53E,#116C31);
