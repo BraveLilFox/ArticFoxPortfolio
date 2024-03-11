@@ -12,14 +12,15 @@
       <p>Please fill out all required information.</p>
       <form method="post" action='mailto:kkpotchka415@gmail.com'>
         <fieldset>
-          <label for="first-name">Enter Your Preferred Name: <input id="first-name" /></label>
-          <label for="last-name">Enter Your Last Name: <input id="last-name" /></label>
-          <label for="email">Enter Your Email: <input id="email" /></label>
-          <label for="username">Create Username: <input id="username" /></label>
-          <label for="password">Create Password: <input id="password" /></label>
+          <label for="first-name">Enter Your Preferred Name: <input id="first-name" type="text" required /></label>
+          <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+          <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+          <label for="username">Create Username: <input id="username" type="username" required /></label>
+          <label for="password">Create Password: <input id="password" type="password" required /></label>
         </fieldset>
         <fieldset></fieldset>
         <fieldset></fieldset>
+        <input type="submit" value="Submit" />
       </form>
     </main>
   </body>
