@@ -5,3 +5,9 @@ body {
   background-color: #5c4742;
   color: #c4bbaf;
 }
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  /*REM = font spacing*/
+}
