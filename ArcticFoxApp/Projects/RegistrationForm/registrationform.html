@@ -24,7 +24,19 @@
           <label for="trainer-account"><input type="radio" id="trainer-account" name="account-type" /> Trainer</label>
         </fieldset>
         <fieldset>
-          <label><input type="file">Submit Photo Here: </label>
+          <label>Upload a Profile Photo: <input type="file"></label>
+          <label>Input your age (years): <input type="number" min="12" max="99" /></label>
+          <label>How did you find us?
+            <select>
+              <option value="">(select one)</option>
+              <option value="1">Instagram</option>
+              <option value="2">Tiktok</option>
+              <option value="3">Facebook</option>
+              <option value="4">GitHub</option>
+              <option value="5">LinkedIn</option>
+              <option value="6">Other</option>
+            </select>
+          </label>
         </fieldset>
         <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required>I accept the <a href="">terms and conditions</a></label>
         <input type="submit" value="Submit" />
