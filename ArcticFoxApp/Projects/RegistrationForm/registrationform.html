@@ -12,11 +12,11 @@
       <p>Please fill out all required information.</p>
       <form method="post" action='mailto:kkpotchka415@gmail.com'>
         <fieldset>
-          <label for="first-name">Enter Your Preferred Name: <input id="first-name" type="text" placeholder="Wallee" required /></label>
-          <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" placeholder="Jones" required /></label>
-          <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
-          <label for="username">Create Username: <input id="username" type="username" required /></label>
-          <label for="password">Create Password: <input id="password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+          <label for="first-name">Enter Your Preferred Name: <input id="first-name" type="text" placeholder="Wallee" name="first-name" required /></label>
+          <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" placeholder="Jones" name="last-name" required /></label>
+          <label for="email">Enter Your Email: <input id="email" type="email" name="email" required /></label>
+          <label for="username">Create Username: <input id="username" type="username" name="username" required /></label>
+          <label for="password">Create Password: <input id="password" type="password" pattern="[a-z0-5]{8,}" name="password" required /></label>
         </fieldset>
         <fieldset>
           <legend>Account Type (Required)</legend>
@@ -24,10 +24,10 @@
           <label for="trainer-account"><input type="radio" id="trainer-account" name="account-type" /> Trainer</label>
         </fieldset>
         <fieldset>
-          <label for="profile-photo">Upload a Profile Photo: <input id="profile-photo" type="file"></label>
-          <label for="age">Input your age (years): <input id="age" type="number" min="12" max="99" /></label>
+          <label for="profile-photo">Upload a Profile Photo: <input id="profile-photo" type="file" name="profile-photo /></label>
+          <label for="age">Input your age (years): <input id="age" type="number" min="12" max="99" name="age" /></label>
           <label for="refer">How did you find us?
-            <select id="refer">
+            <select id="refer" name="refer">
               <option value="">(select one)</option>
               <option value="1">Instagram</option>
               <option value="2">Tiktok</option>
@@ -37,10 +37,10 @@
               <option value="6">Other</option>
             </select>
           </label>
-          <label for="bio">Provide a Bio: <textarea id="bio" rows="3" cols="30" placeholder="I love eating bagels..."></textarea></label>
+          <label for="bio">Provide a Bio: <textarea id="bio" rows="3" cols="30" placeholder="I love eating bagels..." name="bio"></textarea></label>
         </fieldset>
-        <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required>I accept the <a href="">terms and conditions</a></label>
-        <input type="submit" value="Submit" />
+        <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" name="terms-and-conditions" required />I accept the <a href="">terms and conditions</a></label>
+        <input type="submit" value="Submit" name="submit" />
       </form>
     </main>
   </body>
