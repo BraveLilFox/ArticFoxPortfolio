@@ -19,8 +19,9 @@
           <label for="password">Create Password: <input id="password" type="password" pattern="[a-z0-5]{8,}" required /></label>
         </fieldset>
         <fieldset>
-          <label><input type="radio" value="account-type" /> Personal</label>
-          <label><input type="radio" value="account-type" /> Trainer</label>
+          <legend>Account Type (Required)</legend>
+          <label for=""personal-account"><input type="radio" id="personal-account" name="account-type" checked /> Personal</label>
+          <label for="trainer-account"><input type="radio" id="trainer-account" name="account-type" /> Trainer</label>
         </fieldset>
         <fieldset></fieldset>
         <input type="submit" value="Submit" />
