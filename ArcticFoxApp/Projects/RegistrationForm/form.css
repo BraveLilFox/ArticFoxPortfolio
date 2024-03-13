@@ -22,11 +22,41 @@ form {
 
 fieldset {
   border: none;
+  border-bottom: 4px double #8d5b4c
   padding: 2rem 0;
+}
+
+fieldseet:last-of-type {
+  boorder-bottom: none;
 }
 
 label {
   display: block;
   margin: 0.5rem 0;
   /*REM = font spacing*/
+}
+
+input, textarea, select {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0 0;
+  margin-top: 10px;
+}
+
+input, textarea {
+  background-color: #a5978b;
+  border: #a5978b;
+  color: #5a2a27;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input [type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
 }
