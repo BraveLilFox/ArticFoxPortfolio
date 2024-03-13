@@ -22,12 +22,12 @@ form {
 
 fieldset {
   border: none;
-  border-bottom: 4px double #8d5b4c
+  border-bottom: 4px double #8d5b4c;
   padding: 2rem 0;
 }
 
-fieldseet:last-of-type {
-  boorder-bottom: none;
+fieldset:last-of-type {
+  border-bottom: none;
 }
 
 label {
