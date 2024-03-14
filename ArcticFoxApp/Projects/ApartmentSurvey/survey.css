@@ -13,7 +13,7 @@ h1, p {
 }
 
 fieldset {
-    margin: auto;
+    padding: auto;
 }
 
 .parent {
