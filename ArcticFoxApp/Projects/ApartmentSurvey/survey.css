@@ -14,6 +14,8 @@ h1, p {
 
 form {
   margin: 1em auto;
+  max-width: 600px;
+  min-width: 300px;
   width: 60vw;
   background-color: #5e4c54;
   padding-bottom: 2em;
