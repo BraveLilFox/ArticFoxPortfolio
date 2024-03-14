@@ -13,7 +13,7 @@ h1, p {
 }
 
 .parent {
-  margin 10px auto;
+  margin: 10px auto;
   background-color: #5e4c5a;
   width: 80%;
   min-width: 500px;
