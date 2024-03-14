@@ -1,3 +1,13 @@
+body {
+  width: 100%;
+  height: 10vh;
+  margin: 0;
+  background-color: #6bab90;
+  color: #ffe2d1;
+  font-family: san-serif;
+  font-size: 16px;
+}
+
 h1, p {
   text-align: center;
 }
