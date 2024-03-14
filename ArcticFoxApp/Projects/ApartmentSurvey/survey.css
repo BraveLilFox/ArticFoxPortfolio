@@ -12,17 +12,6 @@ h1, p {
   text-align: center;
 }
 
-.parent {
-  margin: 10px auto;
-  width: 80%;
-  max-width: 500px;
-  background-color: #5e4c5a;
-  color: #ffe2d1;
-  font-family: monospace;
-  font-size: 14px;
-  box-shadow: 0 0 20px 0 rgba(0,0,0,0.75);
-}
-
 form {
   margin: 1em auto;
   width: 60vw;
