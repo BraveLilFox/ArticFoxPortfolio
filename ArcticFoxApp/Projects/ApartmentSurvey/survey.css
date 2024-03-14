@@ -12,6 +12,10 @@ h1, p {
   text-align: center;
 }
 
+fieldset {
+    margin: auto;
+}
+
 .parent {
   margin: 10px auto;
   background-color: #5e4c5a;
