@@ -33,6 +33,5 @@ label {
 input {
   display: block;
   width: 100%;
-  vertical-align: middle;
-  margin: auto;
+  margin: 10px 0 0 0;
 }
