@@ -19,6 +19,7 @@ form {
   min-width: 300px;
   width: 60vw;
   padding-bottom: 2em;
+  background-color: cyan;
 }
 
 fieldset {
