@@ -14,12 +14,28 @@
           <fieldset>
             <label id="name-label" for="name">Preferred Name: <input id="name" type="text" name="name" placeholder="W4LLE3" required /></label>
             <label id="email-label" for="email">Email: <input id="email" type="email" name="email" placeholder="w4lle3@outlook.com" required /></label>
-            <label id="number-label" for="number">How Money Do We Need To Save? <input id="number" type="number" name="number" placeholder="6969" min="1000" max="10000" required /></label>
-            <label id="dropdown-label" for="animal-name">Which Pet Is Yours? 
-              <select id="animal-name"></select>
-
+            <label id="number-label" for="number">How Old Are You? <input id="number" type="number" name="number" placeholder="18-70" min="18" max="70" required /></label>
           </fieldset>
-          <fieldset></fieldset>
+          <fieldset>
+            <label id="dropdown-label" for="household-room">Which Room is Most Important?
+              <select id="household-room">
+                <option value="">(select one)</option>
+                <option value="1">Living Room</option>
+                <option value="2">Bedroom</option>
+                <option value="3">Bathroom</option>
+                <option value="4">Kitchen</option>
+                <option value="5">Laundry Room</option>
+                <option value="6">Balcony</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Which Household Products Are Most Important To Get?</legend>
+            <label for="kitchen1"><input type="radio" id="kitchen1" name="kitchen1" checked /> Dish Soap</label>
+            <label for="kitchen2"><input type="radio" id="kitchen2" name="kitchen2" /> Bleach</label>
+          </fieldset>
+          <label for="terms-conditions"><input id="terms-conditions" type="checkbox" name="terms-conditions" required />I accept the <a href="terms-conditions.html">terms and conditions</a></label>
+          <input type="submit" value="Submit" name="submit" />
         </form>
     </main>
     <footer>
