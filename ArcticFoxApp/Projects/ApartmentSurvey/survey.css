@@ -21,6 +21,7 @@ form {
   width: 80vw;
   background-color: #5e4c5a;
   padding-bottom: 2em;
+  border-radius: 5px;
 }
 
 fieldset{
