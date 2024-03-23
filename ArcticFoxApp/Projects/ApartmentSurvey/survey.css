@@ -17,7 +17,8 @@ form {
   max-width: 600px;
   min-width: 300px;
   width: 80vw;
-  background-color: white;
+  background-color: #5e4c5a;
+  color: #ffe2d1;
   padding-bottom: 2em;
 }
 
@@ -32,6 +33,6 @@ label {
 
 input {
   display: block;
-  width: 95%;
+  width: 100%;
 }
   
