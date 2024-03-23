@@ -56,9 +56,9 @@ input, textarea, submit {
   
 .items, .nonperishable {
   display: inline;
-  width: unset;
+  width: 50%;
   margin: 0 1em 0 0;
-  vertical-align: middle;
+  align: left;
 }
 
 placeholder {
