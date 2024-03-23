@@ -30,6 +30,10 @@ fieldset{
   padding: 2rem 3em;
 }
 
+fieldset:last-of-type {
+  padding: 0;
+}
+
 label {
 }
 
