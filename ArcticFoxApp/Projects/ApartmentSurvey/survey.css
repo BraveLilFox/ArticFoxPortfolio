@@ -41,7 +41,8 @@ input, textarea, select {
 input[type="radio"], input[type="checkbox"] {
   align: left;
   display: inline;
-  margin: 0;
+  margin: none;
+  padding: none;
 }
 
 input, textarea, submit {
