@@ -43,14 +43,14 @@ radio, checkbox {
   align: left;
 }
 
-input, textarea {
+input, textarea, submit {
   background-color: #6bab90;
   border: #55917f;
   color: #e1f0c4;
 }
   
 .items, .nonperishable {
-  display: inline;
+  display: block;
   width: unset;
   margin: 0 1em 0 0;
   vertical-align: middle;
