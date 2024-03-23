@@ -15,7 +15,7 @@ h1, p {
 
 form {
   margin: 0 auto;
-  color: #ffe2d1;
+  color: #857A83;
   max-width: 600px;
   min-width: 400px;
   width: 80vw;
@@ -54,4 +54,8 @@ input, textarea, submit {
   width: unset;
   margin: 0 1em 0 0;
   vertical-align: middle;
+}
+
+placeholder {
+  color: #5e4c5a;
 }
