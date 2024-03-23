@@ -17,13 +17,21 @@ form {
   max-width: 600px;
   min-width: 300px;
   width: 80vw;
+  background-color: white;
   padding-bottom: 2em;
 }
 
 fieldset{
   padding: 2em 0;
+  border: none;
 }
 
 label {
   display: block;
 }
+
+input {
+  display: block;
+  width: 95%;
+}
+  
