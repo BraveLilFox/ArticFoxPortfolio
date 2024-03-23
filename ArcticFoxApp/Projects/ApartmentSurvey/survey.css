@@ -33,7 +33,7 @@ label {
   margin: 1rem 0;
 }
 
-textarea, select {
+input, textarea, select {
   display: block;
   width: 99%;
   margin: 5px 0 0 0;
@@ -41,6 +41,7 @@ textarea, select {
 
 radio, checkbox {
   align: left;
+  display: inline;
 }
 
 input, textarea, submit {
