@@ -35,8 +35,8 @@ label {
 
 textarea, select {
   display: block;
-  width: 99%;
-  margin: 5px 0 0 0;
+  width: 80%;
+  margin: 5px 0 10px 10px;
 }
 
 radio, checkbox {
