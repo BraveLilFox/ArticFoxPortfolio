@@ -31,7 +31,7 @@ fieldset{
 }
 
 fieldset:last-of-type {
-  padding: 0;
+  padding: none;
 }
 
 label {
