@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, intial-scale=1.0" />
     <title>Apartment Survey</title>
     <link rel="stylesheet" href="survey.css" />
@@ -9,7 +9,7 @@
   <body>
     <main>
       <h1>Apartment Survey</h1>
-      <p>Please fill out this survey so everyone is aware of all the following:</p>
+      <p>Please fill out this survey to help guide us in getting an apartment.</p>
         <form id="survey-form">
           <fieldset>
             <label id="name-label" for="name">Preferred Name: <input id="name" type="text" name="name" placeholder="W4LLE3" required /></label>
@@ -28,6 +28,7 @@
                 <option value="6">Balcony</option>
               </select>
             </label>
+            <label for="specific">Any Specific Items For This Room? <textarea id="specific" rows="3" columns="30" placeholder="Garbage Can, Sock Holder, Drawers..." name="specific"></textarea></label>
           </fieldset>
           <fieldset>
             <legend>Which Non-Perishable Is The Most Important To Get?</legend>
