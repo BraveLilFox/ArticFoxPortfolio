@@ -39,6 +39,10 @@ input, textarea, select {
   margin: 5px 0 0 0;
 }
 
+radio, checkbox {
+  align: left;
+}
+
 input, textarea {
   background-color: #6bab90;
   border: #55917f;
