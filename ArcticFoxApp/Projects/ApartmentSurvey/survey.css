@@ -10,32 +10,45 @@ body {
 
 h1, p {
   text-align: center;
+  margin: 1.5em auto;
 }
 
 form {
-  margin: 1em auto;
+  margin: 0 auto;
+  color: #ffe2d1;
   max-width: 600px;
-  min-width: 300px;
+  min-width: 400px;
   width: 80vw;
   background-color: #5e4c5a;
-  color: #ffe2d1;
   padding-bottom: 2em;
 }
 
 fieldset{
-  padding: 2em 0;
   border: none;
+  border-bottom: 6px dashed #e1f0c4;
+  padding: 2rem 0;
 }
 
 label {
   display: block;
+  margin: 1rem 0;
 }
 
-input {
+input, textarea, select {
   display: block;
-  width: 98%;
+  width: 99%;
+  margin: 5px 0 0 0;
+}
+
+input, textarea {
+  background-color: #6bab90;
+  border: #55917f;
+  color: #e1f0c4;
 }
   
 .items, .nonperishable {
   display: inline;
+  width: unset;
+  margin: 0 1em 0 0;
+  vertical-align: middle;
 }
