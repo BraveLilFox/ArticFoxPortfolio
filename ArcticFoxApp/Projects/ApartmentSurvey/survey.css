@@ -33,9 +33,10 @@ fieldset{
   padding: 2rem 3em;
 }
 
+/*
 label {
   display: flex;
-}
+} */
 
 label, input {
   margin: 1rem none;
