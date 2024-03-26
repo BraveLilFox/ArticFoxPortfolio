@@ -30,6 +30,7 @@ fieldset{
 }
 
 label {
+  display: flex;
 }
 
 textarea, select {
