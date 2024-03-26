@@ -65,7 +65,7 @@ input, textarea, submit {
   align: left;
 }
 
-input[type="submit", .terms-conditions {
+input[type="submit"], .terms-conditions {
   align: center;
 }
 
