@@ -47,11 +47,6 @@ textarea, select {
   margin: 5px 0 0 0;
 }
 
-input[type="radio"], input[type="checkbox"] {
-  align: left;
-  display: flex;
-}
-
 input, textarea, submit {
   background-color: #857A83;
   border: #857A83;
