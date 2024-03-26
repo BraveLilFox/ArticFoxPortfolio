@@ -52,11 +52,3 @@ input, textarea, submit {
   border: #857A83;
   color: #e1f0c4;
 }
-  
-.inline {
-  display: inline;
-  width: 50%;
-  margin: 0 1em 0 0;
-  align: left;
-}
-
