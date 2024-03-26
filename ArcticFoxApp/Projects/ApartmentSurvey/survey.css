@@ -54,9 +54,17 @@ input, textarea, submit {
   color: #e1f0c4;
 }
 
-input[type="checkbox"] + .checkbox {
-  display: inline-block;
+.checkbox {
+  display: inline;
   width: unsure;
   margin: 0 0.5em 0 0;
   vertical-align: left;
+}
+
+.flexbox {
+  display: block;
+}
+
+footer {
+  margin: 2em auto;
 }
