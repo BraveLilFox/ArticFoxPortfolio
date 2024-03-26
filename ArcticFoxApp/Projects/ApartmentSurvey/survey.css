@@ -13,7 +13,7 @@ h1, p {
   margin: 0.5em auto;
 }
 
-placeholder {
+::placeholder {
   color: white;
 }
 
