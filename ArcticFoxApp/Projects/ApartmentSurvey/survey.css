@@ -56,7 +56,7 @@ input, textarea, submit {
 }
 
 input[type="checkbox"], input[type="radio"] {
-  display: flex;
+  display: inline;
 }
 
 .checkbox, .inline {
@@ -65,10 +65,10 @@ input[type="checkbox"], input[type="radio"] {
   margin: 0 0.5em 0 0;
   vertical-align: left;
 }
-
+/*
 .flexbox {
   display: block;
-}
+} */
 
 .inline {
   align: center;
