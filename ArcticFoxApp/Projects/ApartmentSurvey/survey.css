@@ -60,14 +60,3 @@ input, textarea, submit {
   align: left;
 }
 
-input[type="submit"], .terms-conditions {
-  align: center;
-}
-
-input[type="submit"] {
-  width: 90%;
-}
-
-footer {
-  margin: 2em auto;
-}
