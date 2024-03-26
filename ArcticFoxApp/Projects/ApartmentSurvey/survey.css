@@ -19,7 +19,7 @@ placeholder {
 
 form {
   margin: 0 auto;
-  color: #857A83;
+  color: white;
   max-width: 500px;
   min-width: 300px;
   width: 60wv;
@@ -38,7 +38,7 @@ label {
 }
 
 label, input {
-  margin: 1em auto;
+  margin: 0.5em none;
 }
 
 textarea, select {
