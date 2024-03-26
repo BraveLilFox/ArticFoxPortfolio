@@ -38,7 +38,7 @@ label {
 }
 
 label, input {
-  margin: 0.5em none;
+  margin: 1rem none;
 }
 
 textarea, select {
