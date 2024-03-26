@@ -39,6 +39,7 @@ label {
 } */
 
 label, input {
+  display: block;
   margin: 1rem none;
 }
 
@@ -55,7 +56,7 @@ input, textarea, submit {
 }
 
 .checkbox {
-  display: inline;
+  display: inline-block;
   width: unsure;
   margin: 0 0.5em 0 0;
   vertical-align: left;
