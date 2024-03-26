@@ -56,7 +56,7 @@ input, textarea, submit {
 }
 
 .checkbox {
-  display: inline-block;
+  display: inline;
   width: unsure;
   margin: 0 0.5em 0 0;
   vertical-align: left;
