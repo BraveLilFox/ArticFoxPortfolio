@@ -37,6 +37,10 @@ label {
   display: flex;
 }
 
+label, input {
+  margin: 1em auto;
+}
+
 textarea, select {
   display: block;
   width: 99%;
