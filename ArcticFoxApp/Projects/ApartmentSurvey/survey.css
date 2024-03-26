@@ -38,12 +38,12 @@ label {
   display: flex;
 } */
 
-label, input {
+label {
   display: block;
   margin: 1rem none;
 }
 
-textarea, select {
+input, textarea, select {
   display: block;
   width: 99%;
   margin: 5px 0 0 0;
@@ -53,6 +53,10 @@ input, textarea, submit {
   background-color: #857A83;
   border: #857A83;
   color: #e1f0c4;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  display: flex;
 }
 
 .checkbox {
