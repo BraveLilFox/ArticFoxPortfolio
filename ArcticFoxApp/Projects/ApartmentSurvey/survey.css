@@ -58,7 +58,7 @@ input, textarea, submit {
 }
 */
 .flexbox {
-  display: inline-flex;
+  display: flex-block;
 }
 /*
  {
