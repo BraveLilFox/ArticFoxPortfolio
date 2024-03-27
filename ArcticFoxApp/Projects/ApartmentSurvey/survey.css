@@ -33,3 +33,10 @@ fieldset{
   padding: 2rem 3em;
 }
 
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea, select {
+  
