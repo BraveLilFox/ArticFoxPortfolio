@@ -43,3 +43,9 @@ input, textarea, select {
   width: 95%;
   margin: 10px 0 0 0;
 }
+
+input, textarea {
+  background-color: #4a3d47;
+  border: #4a3d47;
+  color: white;
+}
