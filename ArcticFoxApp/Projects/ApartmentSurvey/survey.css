@@ -60,4 +60,5 @@ input, textarea {
 .flexbox {
   display: inline-flex;
   align: left;
+  width: 95%;
 }
