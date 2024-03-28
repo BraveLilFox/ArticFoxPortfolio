@@ -58,5 +58,6 @@ input, textarea {
 }
 
 .flexbox {
-  display: inline-block;
+  display: inline-flex;
+  align: left;
 }
