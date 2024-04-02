@@ -61,3 +61,7 @@ input, textarea {
   display: flex;
   align-items: center;
 }
+
+input[type="checkbox"] {
+  flex: none;
+}
