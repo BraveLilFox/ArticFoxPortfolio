@@ -58,6 +58,6 @@ input, textarea {
 }
 
 .flexbox, input[type="checkbox"] {
-  display: inline;
+  display: inline-flex;
   align: left;
 }
