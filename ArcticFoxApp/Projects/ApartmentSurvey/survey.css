@@ -57,7 +57,7 @@ input, textarea {
   vertical-align: middle;
 }
 
-.flexbox, input[type="checkbox"] {
+.flexbox {
   display: inline-flex;
   align: left;
 }
