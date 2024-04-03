@@ -61,3 +61,7 @@ input, textarea {
   display: inline-flex;
   width: unset;
 }
+
+input[type="checkbox"] {
+  display: inline;
+}
