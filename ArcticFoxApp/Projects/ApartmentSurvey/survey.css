@@ -58,5 +58,5 @@ input, textarea {
 }
 
 input[type='checkbox'] + label {
-  display: inline-block;
+  display: inline-flex;
 }
