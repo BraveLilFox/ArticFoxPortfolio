@@ -11,7 +11,9 @@
     <p id="description">This is my survey project. This is where I will describe what this survey is about to guide you in you answers. Have Fun!</p>
     <form id="survey-form">
       <fieldset>
-        <input type="text" id="name" />
+        <label id="name-label">Name: <input type="text" id="name" required /></label>
+        <input type="email" id="email" required />
+        <input type="number" id="number" min="1" max="99" />
       </fieldset>
       <fieldset></fieldset>
       <fieldset></fieldset>
