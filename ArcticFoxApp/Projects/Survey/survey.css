@@ -42,3 +42,7 @@ input, textarea, select {
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
+
+.checkbox {
+  display: inline-block;
+}
