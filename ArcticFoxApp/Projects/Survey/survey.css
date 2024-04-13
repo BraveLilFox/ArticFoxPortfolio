@@ -19,3 +19,19 @@ form {
   width: 60vw;
   padding-bottom: 2em;
 }
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea, select {
+  display: block;
+  width: 95%;
+  margin: 10px 0 0 0;
+}
