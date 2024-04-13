@@ -44,5 +44,5 @@ input, textarea, select {
 }
 
 .checkbox {
-  display: inline-block;
+  display: inline-flex;
 }
