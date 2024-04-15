@@ -48,8 +48,10 @@ input, textarea, select {
 
 .check {
   display: unset;
+  margin: 0;
 }
 
 input[type="checkbox"] {
   display: unset;
+  margin: 0;
 }
