@@ -46,14 +46,10 @@ input, textarea, select {
   vertical-align: middle;
 }
 
-.check + input[type="checkbox"] {
-  display: flex;
-  align-items: center;
-  width: 13px;
-  height: 13px;
-  padding: 0;
-  margin: 0;
-  vertical-align: bottom;
-  position: relative;
-  top: -1px;
+.check {
+  display: unset;
+}
+
+input[type="checkbox"] {
+  display: unset;
 }
