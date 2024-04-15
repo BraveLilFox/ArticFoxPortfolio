@@ -46,16 +46,6 @@ input, textarea, select {
   vertical-align: middle;
 }
 
-.check {
-  display: unset;
-  margin: 0;
-}
-
-input[type="checkbox"] {
-  display: unset;
-  margin: 0;
-}
-
 input[type="submit"] {
   display: block;
   width: 60%;
