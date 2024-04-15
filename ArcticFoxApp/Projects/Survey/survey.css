@@ -25,6 +25,7 @@ form {
 
 fieldset {
   border: none;
+  border-bottom: dotted 3px  #ADE25D;
   padding: 2rem auto;
 }
 
