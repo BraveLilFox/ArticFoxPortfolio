@@ -4,6 +4,4 @@ const selectElement = selector => {
   if(element) return element;
   throw new Error('Something went, make sure that ${selector} exists or is typed correctly.');
 };
-
-
 // Nav Styles on scroll
