@@ -11,7 +11,7 @@
     #dcf2b0, #c2eabd, #c0babc, #c7ac92, #cd533b);
   --transparent-light-color: rgba(255,255,255,.05);
   --transparent-dark-color: rgba(0,0,0,.75);
-  --font-family: 'Sedgwick Ave Display', 'sans-serif';
+  --font-family: 'sans-serif';
   --font-size-xsm: 1.2rem;
   --font-size-sm: 1.6rem;
   --font-size-md: 2.4rem;
@@ -38,4 +38,8 @@ html{
 body{
   font-family: var(--font-family);
   font-size: var(--font-size-sm);
+  color: var(--light-color-alt);
+  background-color: var(--primary-background-color);
+  letter-spacing: 1px;
+  transition: background-color .25s, color .25s;
 }
