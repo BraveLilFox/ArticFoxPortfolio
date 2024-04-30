@@ -45,5 +45,27 @@ body{
 }
 
 a {
-  text decoration: ;
+  text decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+buttons {
+  font: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+
+i {
+  font-size: var(--font-size-md);
 }
