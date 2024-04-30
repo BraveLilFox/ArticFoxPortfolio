@@ -187,3 +187,7 @@ body.light-theme {
 .menu-toggle-icon.activated .close-menu-icon{
   display: block;
 }
+
+.search {
+  height: 2000rem;
+}
