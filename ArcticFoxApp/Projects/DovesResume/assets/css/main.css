@@ -138,3 +138,22 @@ body.light-theme {
 .menu > .list {
   flex-direction: column;
 }
+
+.list-link-current {
+  color: var(--light-color);
+}
+
+.closed-menu-icon {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.list-link:hover
+.btn:hover
+.btn:hover span{
+  color: var(--light-color);
+}
+  
