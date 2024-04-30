@@ -13,3 +13,5 @@ const scrollHeader = () => {
     headerElement.classList.remove('activated');
   }
 };
+
+window.addEventListener('scroll', scrollHeader)
