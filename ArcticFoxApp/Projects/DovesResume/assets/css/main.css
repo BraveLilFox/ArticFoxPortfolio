@@ -63,6 +63,7 @@ buttons {
   font: inherit;
   color: inherit;
   border: none;
+  background-color: transparent;
   outline: none;
 }
 
