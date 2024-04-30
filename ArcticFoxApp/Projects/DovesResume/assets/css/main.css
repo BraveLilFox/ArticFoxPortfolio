@@ -151,8 +151,8 @@ body.light-theme {
   cursor: pointer;
 }
 
-.list-link:hover
-.btn:hover
+.list-link:hover,
+.btn:hover,
 .btn:hover span{
   color: var(--light-color);
 }
