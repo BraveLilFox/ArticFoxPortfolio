@@ -111,7 +111,6 @@ body.light-theme{
   align-items: center;
   justify-content: space-between;
   padding-block: 1.5rem;
-  z-index: 10000;
 }
 
 .logo {
