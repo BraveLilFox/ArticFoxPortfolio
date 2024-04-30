@@ -108,7 +108,6 @@ body.light-theme{
 
 .navbar {
   display: flex;
-  position: fixed;
   align-items: center;
   justify-content: space-between;
   padding-block: 1.5rem;
