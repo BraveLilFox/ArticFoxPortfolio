@@ -16,3 +16,14 @@ const scrollHeader = () => {
 };
 
 window.addEventListener('scroll', scrollHeader);
+
+// Open Menu And Search Pop Up
+const menuToggleIcon = selectElement('#menu-toggle-icon');
+
+const toggleMenu = () => {
+  const mobileMenu = selectElement('#menu');
+  mobileMenu.classList.toggle('activated');
+  menuToggleIcon.classList.toggle('activated');
+};
+
+menuToggleIcon.addEventListener('click', toggleMenu);
