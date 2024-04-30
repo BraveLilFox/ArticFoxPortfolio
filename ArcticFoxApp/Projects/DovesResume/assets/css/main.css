@@ -59,7 +59,7 @@ ul {
 }
 
 input,
-buttons {
+button {
   font: inherit;
   color: inherit;
   border: none;
