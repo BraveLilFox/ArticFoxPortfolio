@@ -124,5 +124,17 @@ body.light-theme {
   width: 23rem;
   padding: 1.5rem;
   background-color: var(--secondary-background-color);
-  opacity: 0;
+  /* opacity: 0;
+  transform: scale(0); */
+  transition: opacity .25s ease-in;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.menu > .list {
+  flex-direction: column;
 }
