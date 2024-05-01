@@ -244,6 +244,7 @@ body.light-theme{
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
+  padding: 1.5rem;
   border: 2px solid var(--secondary-background-color);
   width: 4rem;
   height: 4rem;
