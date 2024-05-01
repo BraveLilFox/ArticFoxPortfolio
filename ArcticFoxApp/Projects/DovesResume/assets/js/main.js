@@ -29,6 +29,11 @@ const toggleMenu = () => {
 menuToggleIcon.addEventListener('click', toggleMenu);
 
 // Open/Close Search Form Pop Up
+const openFormBtn = selectElement('#search-icon');
+const closeFormBtn = selectElement('#form-close-btn');
+const searchContainer = selectElement('#search-form-container');
+
+openFormBtn.addEventListener('click', () => searchContainer.classList.add('activated'));
 
 // - - Close the search form pop up on esp keypress
 
