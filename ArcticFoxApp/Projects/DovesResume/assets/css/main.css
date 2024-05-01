@@ -188,6 +188,7 @@ body.light-theme{
   display: block;
 }
 
+/*
 .search-form-container{
   width: 100%;
   max-width: 100%;
@@ -209,3 +210,4 @@ body.light-theme{
   flex-direction: column;
   gap: var(--gap);
 }
+*/
