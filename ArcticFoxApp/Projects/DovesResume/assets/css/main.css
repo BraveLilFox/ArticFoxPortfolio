@@ -222,3 +222,29 @@ body.light-theme{
   border: 2px solid var(--secondary-background-color);
   padding: 1.5rem;
 }
+
+.form-input{
+  border-right: none;
+  width: 100%;
+}
+
+.form-btn{
+  margin-left: -.5rem;
+  border-left: none;
+  background-color: var(--secondary-background-color);
+  width: 8rem;
+}
+
+.form-note{
+  font-size: var(--font-size-xsm);
+  align-self: flex-end;
+}
+
+.form-closed-btn{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  border: 2px solid var(--secondary-background-color);
+  width: 4rem;
+  height: 4rem;
+}
