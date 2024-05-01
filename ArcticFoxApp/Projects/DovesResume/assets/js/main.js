@@ -38,7 +38,8 @@ const toggleThemeBtn = selectElement('#theme-toggle-btn');
 const currentTheme = localStorage.getItem('currentTheme');
 
 if(currentTheme){
-  bodyElement.classList.add('light-theme');
+  bodyElement.classList.add('light-theme')
+  
 };
 
 toggleThemeBtn.addEventListener('click', () => {
