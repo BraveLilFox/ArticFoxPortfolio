@@ -81,6 +81,7 @@ body.light-theme{
   --transparent-dark-color: rgba(0,0,0,.1);
 }
 
+/* Reusuable Classes */
 .container{
   max-width: 160rem;
   margin: 0 auto;
@@ -97,6 +98,15 @@ body.light-theme{
   display: none;
 }
 
+.d-grid{
+  display: grid;
+}
+
+.section{
+  padding: 5rem;
+}
+
+/* Header */
 .header{
   background-color: var(--secondary-background-color);
   position: fixed;
