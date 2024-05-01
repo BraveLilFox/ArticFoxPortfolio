@@ -103,7 +103,7 @@ body.light-theme{
 }
 
 .section{
-  padding: 5rem;
+  padding-block: 5rem;
 }
 
 /* Header */
@@ -261,7 +261,28 @@ body.light-theme{
   height: 4rem;
 }
 
+/*m Form JavaScript Styles */
 .search-form-container.activated{
   opacity: 1;
   transform: scale(1);
 }
+
+/* Featured Articles */
+
+/* Featured Articles - Sidebar */
+
+/* Quick Read */
+
+/* Quick Read - Swiper */
+
+/* Older Posts */
+
+/* Popular Tags */
+
+/* Newsletter */
+
+/* Footer */
+
+/* Blog Post */
+
+/* Media Queries */
