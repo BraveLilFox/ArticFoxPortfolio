@@ -188,7 +188,6 @@ body.light-theme{
   display: block;
 }
 
-/*
 .search-form-container{
   width: 100%;
   max-width: 100%;
@@ -199,8 +198,8 @@ body.light-theme{
   left: 0;
   z-index: 9999;
   display: flex;
-  opacity: 0;
-  transform: scale(0)
+  /* opacity: 0;
+  transform: scale(0) */
   transition: opacity .5s;
 }
 
@@ -209,5 +208,17 @@ body.light-theme{
   display: flex;
   flex-direction: column;
   gap: var(--gap);
+  text-align: center;
 }
-*/
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.form-input,
+.form-btn{
+  display: inline-block;
+  border: 2px solid var(--secondary-background-color);
+  padding: 1.5rem;
+}
