@@ -103,6 +103,7 @@ body.light-theme{
   top: 0;
   left: 0;
   width: 100%;
+  margin: 0 auto;
   z-index: 999;
 }
 
@@ -111,7 +112,6 @@ body.light-theme{
   align-items: center;
   justify-content: space-between;
   padding-block: 1.5rem;
-  margin: 0 auto;
 }
 
 .logo {
