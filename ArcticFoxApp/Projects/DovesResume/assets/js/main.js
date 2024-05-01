@@ -38,9 +38,6 @@ openFormBtn.addEventListener('click', () => searchContainer.classList.add('activ
 closeFormBtn.addEventListener('click', () => searchContainer.classList.remove('activated'));
 
 // - - Close the search form pop up on esp keypress
-window.addEventListner('keyup', event => {
-  if(event.key === 'Escape') searchContainer.classList.remove('activated');
-});
 
 // Switch theme/add to local storage
 const bodyElement = document.body;
