@@ -38,6 +38,12 @@ const toggleThemeBtn = selectElement('#theme-toggle-btn');
 
 toggleThemeBtn.addEventListener('click', () =>{
   bodyElement.classList.toggle('light-theme');
+
+  if(bodyElement.classList.contains('light-theme')){
+    localStorage.setItem('currentTheme', 'themeActive');
+  }else{
+    localStorage.removeItem('currentTheme');
+  }
 });
 
 // Swiper
