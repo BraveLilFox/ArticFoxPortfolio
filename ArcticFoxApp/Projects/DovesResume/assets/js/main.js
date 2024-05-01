@@ -27,3 +27,14 @@ const toggleMenu = () => {
 };
 
 menuToggleIcon.addEventListener('click', toggleMenu);
+
+// Open/Close Search Form Pop Up
+
+// - - Close the search form pop up on esp keypress
+
+// Switch theme/add to local storage
+const bodyElement = document.body;
+const toggleThemeBtn = selectElement('#theme-toggle-btn');
+
+
+// Swiper
