@@ -36,5 +36,10 @@ menuToggleIcon.addEventListener('click', toggleMenu);
 const bodyElement = document.body;
 const toggleThemeBtn = selectElement('#theme-toggle-btn');
 
+toggleThemeBtn.addEventListener('click', () => {
+  bodyElement.classList.toggle('light-theme');
+
+  if(body)
+});
 
 // Swiper
