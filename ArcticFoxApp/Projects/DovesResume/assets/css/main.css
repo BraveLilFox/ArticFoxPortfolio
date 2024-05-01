@@ -268,6 +268,13 @@ body.light-theme{
 }
 
 /* Featured Articles */
+.featured-articles{
+  padding-block: 2rem;
+}
+
+.section-header-offset{
+  margin-top: 7rem;
+}
 
 /* Featured Articles - Sidebar */
 
