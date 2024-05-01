@@ -39,7 +39,7 @@ const currentTheme = localStorage.getItem('currentTheme');
 
 if(currentTheme){
   bodyElement.classList.add('light-theme');
-}
+};
 
 toggleThemeBtn.addEventListener('click', () => {
   bodyElement.classList.toggle('light-theme');
