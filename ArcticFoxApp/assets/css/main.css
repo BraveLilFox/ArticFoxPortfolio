@@ -107,7 +107,7 @@ section{
   justify-content: center;
   transform: translateY(-50%);
   .control{
-    padding: var(--gap);
+    padding: 1rem;
     cursor: pointer;
     background-color: var(--gray4-color);
     width: 50px;
