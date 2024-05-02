@@ -1,7 +1,15 @@
 :root{
   --primary-background-color: #333;
   --accent-color: #d4dfc7;
-  --white: #fff;
+  --white-color: #fff;
+  --black-color: #000;
+  --gray0-color: #f8f8f8;
+  --gray1-color: #dbe1e8;
+  --gray2-color: #b2becd;
+  --gray3-color: #6c7983;
+  --gray4-color: #454e56;
+  --gray5-color: #2a2e35;
+  --gray6-color: #12181b;
   --font: 'sans-serif';
   --xxsm-font: 1rem;
   --xsm-font: 1.2rem;
