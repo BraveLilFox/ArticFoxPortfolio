@@ -45,6 +45,10 @@ a{
   display: inline-block;
 }
 
+i{
+  font-size: var(--md-font);
+}
+
 header{
   height: 100vh;
   color: var(--white-color);
@@ -113,4 +117,5 @@ section{
     align-items: center;
     margin: .5rem 0;
     box-shadow: var(--box-shadow1);
+  }
 }
