@@ -59,32 +59,32 @@ section{
 }
 
 .section{
-  transform: translate(-100%);
+  transform: translateY(-100%) scale(0);
   transition: all .4s ease-in-out;
   background-color: var(--primary-background-color);
 }
 
 .section1{
   display: none;
-  transform: translateY(0) scale(0);
+  transform: translateY(0) scale(1);
 }
 
 .section2{
   display: none;
-  transform: translateY(0) scale(0);
+  transform: translateY(0) scale(1);
 }
 
 .section3{
   display: none;
-  transform: translateY(0) scale(0);
+  transform: translateY(0) scale(1);
 }
 
 .section4{
   display: none;
-  transform: translateY(0) scale(0);
+  transform: translateY(0) scale(1);
 }
 
 .section5{
   display: none;
-  transform: translateY(0) scale(0);
+  transform: translateY(0) scale(1);
 }
