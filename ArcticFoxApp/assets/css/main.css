@@ -1,6 +1,6 @@
 :root{
   --primary-background-color: #333;
-  --accent-color: #d4dfc7;
+  --accent-background-color: #d4dfc7;
   --white-color: #fff;
   --black-color: #000;
   --gray0-color: #f8f8f8;
@@ -56,4 +56,10 @@ section{
   top: 0;
   left: 0;
   padding: 2rem 13rem;
+}
+
+.section{
+  transform: translate(-100%);
+  transition: all .4s ease-in-out;
+  background-color: var(--primary-background-color);
 }
