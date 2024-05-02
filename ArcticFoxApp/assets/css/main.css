@@ -38,3 +38,22 @@ body{
   transition: all .4s ease-in-out;
 }
 
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+header{
+  height: 100vh;
+  color: var(--white-color);
+  overflow: hidden;
+}
+
+section{
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem 13rem;
+}
