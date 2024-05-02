@@ -110,7 +110,7 @@ section{
     background-color: var(--accent-background-color) !important;
     transition: acc .4s ease-in-out;
     i{
-      color: var(--white-color);
+      color: var(--white-color) !important;
     }
   }
   .control{
