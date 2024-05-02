@@ -18,6 +18,8 @@
   --lg-font: 3rem;
   --xlg-font: 4rem;
   --xxlg-font: 6rem;
+  --gap: 1.5rem;
+  --box-shadow1: 0 3px 15px rgba(0,0,0,.5);
 }
 
 *{
@@ -98,4 +100,17 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  .control{
+    padding: var(--gap);
+    cursor: pointer;
+    background-color: var(--gray4-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0;
+    box-shadow: var(--box-shadow1);
 }
