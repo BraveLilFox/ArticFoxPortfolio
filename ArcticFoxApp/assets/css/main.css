@@ -108,6 +108,7 @@ section{
   transform: translateY(-50%);
   .active-btn{
     background-color: var(--accent-background-color) !important;
+    border-color: red;
     transition: acc .4s ease-in-out;
     i{
       color: var(--white-color) !important;
