@@ -1,7 +1,15 @@
 :root{
   --primary-background-color: #333;
   --accent-color: #d4dfc7;
-  
+  --white: #fff;
+  --font: 'sans-serif';
+  --xxsm-font: 1rem;
+  --xsm-font: 1.2rem;
+  --sm-font: 1.6rem;
+  --md-font: 2.4rem;
+  --lg-font: 3rem;
+  --xlg-font: 4rem;
+  --xxlg-font: 6rem;
 }
 
 *{
@@ -12,7 +20,12 @@
 
 html{
   font-size: 62.5%;
+  font-family: var(--font);
 }
 
 body{
+  background-color: var(--primary-background-color);
+  font-size: var(--xsm-font);
+  color: var(--white);
+  transition: all .4s ease-in-out;
 }
