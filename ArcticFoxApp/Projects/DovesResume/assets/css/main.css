@@ -276,6 +276,13 @@ body.light-theme{
   margin-top: 7rem;
 }
 
+.featured-article-container,
+.featured-content{
+  gap: var(--gap);
+}
+
+
+
 /* Featured Articles - Sidebar */
 
 /* Quick Read */
