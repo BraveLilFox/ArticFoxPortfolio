@@ -63,3 +63,28 @@ section{
   transition: all .4s ease-in-out;
   background-color: var(--primary-background-color);
 }
+
+.section1{
+  display: none;
+  transform: translateY(0) scale(0);
+}
+
+.section2{
+  display: none;
+  transform: translateY(0) scale(0);
+}
+
+.section3{
+  display: none;
+  transform: translateY(0) scale(0);
+}
+
+.section4{
+  display: none;
+  transform: translateY(0) scale(0);
+}
+
+.section5{
+  display: none;
+  transform: translateY(0) scale(0);
+}
