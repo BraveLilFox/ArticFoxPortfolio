@@ -17,17 +17,17 @@ function PageTransitions(){
   }
 
   // Sections Active
-  btnSection.addEventListener('click', (e) =>{
+  btnSection.addEventListener('click', (e)=>{
     const id = e.target.dataset.id;
     if(id){
       //remove selected from the other btns
-      sectionBtns.forEach((btn) =>{
+      sectionBtns.forEach((btn)=>{
         btn.classList.remove('active');
       })
       e.target.classList.add('active');
 
       // Hide other sections
-      sections.forEach((section) =>{
+      sections.forEach((section)=>{
         sections.classList.remove('active');
       })
 
