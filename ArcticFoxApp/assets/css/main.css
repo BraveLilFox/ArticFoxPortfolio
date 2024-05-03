@@ -111,7 +111,7 @@ section{
     border-color: red;
     transition: acc .4s ease-in-out;
     i{
-      color: var(--white-color) !important;
+      color: var(--gray4-color) !important;
     }
   }
   .control{
