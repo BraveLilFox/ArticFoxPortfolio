@@ -7,6 +7,17 @@ const selectElement = selector => {
 
 // Defining Elements
 
-const sections = selectElement{'.sections'};
-const controlBtns = selectElement{'.control'};
-const buttonSection = selectElement{'.controls'};
+const sections = selectElement{'.section'};
+const sectionBtns = selectElement{'.control'};
+const btnSection = selectElement{'.controls'};
+const allSections = document.querySelector.body;
+
+function pageTransitions(){
+  for(let i =0; i < sectionBtns.length; i++){
+    sectionBtns[i].addListener('click' (),
+      let currentBtn = selectElement('.active-btn')'
+      currentBtn[0].classList = currentBtn[0].className.replace('active-btn', '');
+      this.className
+    )
+  }
+}
