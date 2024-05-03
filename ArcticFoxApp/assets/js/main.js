@@ -8,9 +8,9 @@ const selectElement = selector => {
 
 // Defining Elements
 
-const sections = document.querySelectorAll{'.section'};
-const sectionBtns = document.querySelectorAll{'.control'};
-const btnSection = document.querySelectorAll{'.controls'};
+const sections = document.querySelectorAll('.section');
+const sectionBtns = document.querySelectorAll('.control');
+const btnSection = document.querySelectorAll('.controls');
 const allSections = document.querySelector.body;
 
 function PageTransitions(){
