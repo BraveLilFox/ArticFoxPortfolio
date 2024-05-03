@@ -9,3 +9,4 @@ const selectElement = selector => {
 
 const sections = selectElement{'.sections'};
 const controlBtns = selectElement{'.control'};
+const buttonSection = selectElement{'.controls'};
