@@ -74,16 +74,19 @@ section{
 .section1{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: cyan;
 }
 
 .section2{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: slateblue;
 }
 
 .section3{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: red;
 }
 
 .section4{
