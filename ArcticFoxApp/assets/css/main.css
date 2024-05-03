@@ -101,6 +101,10 @@ section{
   background-color: purple;
 }
 
+.active{
+  display: block;
+}
+
 /* Controlls Container */
 .controls{
   position: fixed;
