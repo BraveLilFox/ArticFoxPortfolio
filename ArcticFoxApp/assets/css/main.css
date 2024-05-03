@@ -92,11 +92,13 @@ section{
 .section4{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: yellow;
 }
 
 .section5{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: purple;
 }
 
 /* Controlls Container */
