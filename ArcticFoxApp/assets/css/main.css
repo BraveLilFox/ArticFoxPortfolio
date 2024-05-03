@@ -101,7 +101,6 @@ section{
   background-color: purple;
 }
 
-/*
 .active{
   display: block;
   animation: scaleAnim 1s ease-in-out;
@@ -114,7 +113,7 @@ section{
     }
   }
 }
-*/
+
 /* Controlls Container */
 .controls{
   position: fixed;
