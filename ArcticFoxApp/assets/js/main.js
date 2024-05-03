@@ -15,13 +15,13 @@ const selectMultiple = selectorMult => {
 
 const sections = selectMultiple{'.section'};
 const sectionBtns = selectMultiple{'.control'};
-const btnSection = selectMultiple{'.controls'};
+const btnSection = document.querySelectorAll{'.controls'};
 const allSections = document.querySelector.body;
 
 function PageTransitions(){
   for(let i =0; i < sectionBtns.length; i++){
     sectionBtns[i].addListener('click', function(){
-      let currentBtn = document.querySelectAll('.active-btn');
+      let currentBtn = document.querySelectorAll('.active-btn');
       currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
       this.className + 'active-btn';
     });
