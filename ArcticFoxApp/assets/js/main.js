@@ -11,7 +11,7 @@ const sections = selectElement{'.section'};
 const sectionBtns = selectElement{'.control'};
 const btnSection = selectElement{'.controls'};
 const allSections = document.querySelector.body;
-/*
+
 function pageTransitions(){
   for(let i =0; i < sectionBtns.length; i++){
     sectionBtns[i].addListener('click' (),
@@ -21,4 +21,4 @@ function pageTransitions(){
     )
   }
 }
-*/
+
