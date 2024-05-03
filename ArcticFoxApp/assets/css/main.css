@@ -103,7 +103,7 @@ section{
 
 .active{
   display: block;
-  animation: scaleAnim 1s ease-in-out;
+  animation: scaleAnim .1s ease-in-out;
   @keyframes scaleAnim {
     0%{
       transform: translateY(-100%) scaleY(0)
