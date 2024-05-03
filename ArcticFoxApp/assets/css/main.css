@@ -73,14 +73,14 @@ section{
 
 .section1{
   display: none;
-  transform: translateY(0) scale(1);
+  transform: translateY(0) scaleY(1);
   background-color: cyan;
 }
 
 .section2{
   display: none;
-  transform: translateY(0) scale(1);
-  background-color: slateblue;
+  transform: translateY(0) scaleY(1);
+  background-color: green;
 }
 
 .section3{
@@ -106,10 +106,10 @@ section{
   animation: scaleAnim .1s ease-in-out;
   @keyframes scaleAnim {
     0%{
-      transform: translateY(-100%) scaleY(0)
+      transform: translateY(-100%) scaleY(0);
     }
     100%{
-      transform: translateY(0%) scaleY(1)
+      transform: translateY(0) scaleY(1);
     }
   }
 }
