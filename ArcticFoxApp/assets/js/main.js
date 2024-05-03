@@ -17,7 +17,7 @@ function PageTransitions(){
   }
 
   // Sections Active
-  btnSection.addEventListener('click', (e)=>{
+  allSections.addEventListener('click', (e)=>{
     const id = e.target.dataset.id;
     if(id){
       //remove selected from the other btns
