@@ -1,3 +1,4 @@
+
 // Grab Elements For JavaScript
 const selectElement = selector => {
   const element = document.querySelector(selector);
@@ -5,16 +6,10 @@ const selectElement = selector => {
   throw new Error(`Somethings not right, make sure that ${selector} actually exists or that you spelled it correctly`)
 };
 
-const selectMultiple = selectorMult => {
-  const elements = document.querySelectAll{'selectorMult'};
-  if (elements) return elements;
-  throw new Error(`Somethings not right, make sure that ${selectorMult} actually exists or that you spelled it correctly`)
-};
-
 // Defining Elements
 
-const sections = selectMultiple{'.section'};
-const sectionBtns = selectMultiple{'.control'};
+const sections = document.querySelectorAll{'.section'};
+const sectionBtns = document.querySelectorAll{'.control'};
 const btnSection = document.querySelectorAll{'.controls'};
 const allSections = document.querySelector.body;
 
