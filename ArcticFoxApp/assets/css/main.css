@@ -1,6 +1,7 @@
 :root{
   --primary-background-color: #333;
   --accent-background-color: #d4dfc7;
+  --button-border-color: #b0c19c;
   --white-color: #fff;
   --black-color: #000;
   --gray0-color: #f8f8f8;
@@ -108,7 +109,7 @@ section{
   transform: translateY(-50%);
   .active-btn{
     background-color: var(--accent-background-color) !important;
-    border-color: red;
+    border-color: var(--button-border-color);
     transition: acc .4s ease-in-out;
     i{
       color: var(--gray4-color) !important;
