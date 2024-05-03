@@ -22,17 +22,17 @@ function PageTransitions(){
     if(id){
       //remove selected from the other btns
       sectionBtns.forEach((btn) =>{
-        btn.classList.remove('.active')
+        btn.classList.remove('active')
       })
-      e.target.classList.add('.active')
+      e.target.classList.add('active')
 
       // Hide other sections
       sections.forEach((section)=>{
-        sections.classList.remove('.active')
+        sections.classList.remove('active')
       })
 
       const element = document.getElementById(id);
-      element.classList.add('.active');
+      element.classList.add('active');
     }
   })
 }
