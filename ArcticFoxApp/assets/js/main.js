@@ -14,11 +14,11 @@ const allSections = document.querySelector.body;
 
 function PageTransitions(){
   for(let i =0; i < sectionBtns.length; i++){
-    sectionBtns[i].addListener('click' (),
-      let currentBtn = selectElement('.active-btn')'
+    sectionBtns[i].addListener('click', () =>{
+      let currentBtn = selectElement('.active-btn');
       currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
-      this.className + 'active-btn'
-    )
+      this.className + 'active-btn';
+    });
   }
 }
 
