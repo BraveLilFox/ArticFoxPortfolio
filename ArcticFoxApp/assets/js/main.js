@@ -17,11 +17,11 @@ function PageTransitions(){
   }
 
   // Sections Active
-  allSections.addEventListener('click', (e)=>{
+  allSections.addEventListener('click', (e) =>{
     const id = e.target.dataset.id;
     if(id){
       //remove selected from the other btns
-      sectionBtns.forEach((btn)=>{
+      sectionBtns.forEach((btn) =>{
         btn.classList.remove('active');
       })
       e.target.classList.add('active');
