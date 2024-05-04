@@ -85,19 +85,19 @@ section{
 
 .section3{
   display: none;
-  transform: translateY(0) scale(1);
+  transform: translateY(0) scaleY(1);
   background-color: red;
 }
 
 .section4{
   display: none;
-  transform: translateY(0) scale(1);
+  transform: translateY(0) scaleY(1);
   background-color: yellow;
 }
 
 .section5{
   display: none;
-  transform: translateY(0) scale(1);
+  transform: translateY(0) scaleY(1);
   background-color: purple;
 }
 
