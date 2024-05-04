@@ -147,3 +147,18 @@ section{
     box-shadow: var(--box-shadow1);
   }
 }
+
+/* Header Content */
+.header-content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%
+  .header-left{
+  display: flex;
+  align-items: center;
+  position: relative;
+  .h-shape{
+    
+  }
+  }
+}
