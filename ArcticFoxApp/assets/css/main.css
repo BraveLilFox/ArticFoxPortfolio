@@ -20,6 +20,7 @@
   --xlg-font: 4rem;
   --xxlg-font: 6rem;
   --gap: 1.5rem;
+  --small-br1: 1rem;
   --box-shadow1: 0 3px 15px rgba(0,0,0,.5);
 }
 
@@ -161,6 +162,14 @@ section{
       transition: all .4s ease-in-out;
       width: 65%;
       height: 100%;
+      background-color: var(-accent-background-color);
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      clip-path: polygon(0 0, 46% 0, 79% 100%, 0 100%);
+    }
+    .img{
       
     }
   }
