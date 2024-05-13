@@ -170,7 +170,15 @@ section{
       clip-path: polygon(0 0, 46% 0, 79% 100%, 0 100%);
     }
     .img{
-      
+      border-radius: var(--small-break1);
+      height: 90%;
+      width: 68%;
+      margin-left: 4rem;
+      background-color: var(--black-color);
+      transition: all .4s ease-in-out;
+      img{
+        
+      }
     }
   }
 }
