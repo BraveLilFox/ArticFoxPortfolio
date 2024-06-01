@@ -154,6 +154,8 @@ section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
+  /*check on this*/
+  background-color: var(--primary-background-color);
   .header-left{
     display: flex;
     align-items: center;
