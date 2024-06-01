@@ -14,7 +14,7 @@
   --gray4-color: #454e56;
   --gray5-color: #2a2e35;
   --gray6-color: #12181b;
-  --font: 'sans-serif';
+  --font-family: 'Reddit Sans Condensed', 'sans-serif';
   --xxsm-font: 1rem;
   --xsm-font: 1.2rem;
   --sm-font: 1.6rem;
@@ -35,7 +35,7 @@
 
 html{
   font-size: 62.5%;
-  font-family: var(--font);
+  font-family: var(--font-family);
 }
 
 body{
