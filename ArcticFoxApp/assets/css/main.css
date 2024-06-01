@@ -1,3 +1,6 @@
+/*Google Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&family=Sedgwick+Ave+Display&display=swap');
+
 :root{
   --primary-background-color: #333;
   --accent-background-color: #d4dfc7;
