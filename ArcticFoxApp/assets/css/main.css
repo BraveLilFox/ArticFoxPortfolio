@@ -196,7 +196,7 @@ section{
     justify-content: center;
     padding-right: 18rem;
     .name{
-      font-size: var(--font-lg);
+      font-size: var(--lg-font);
       span{
         color: var(--accent-background-color);
       }
