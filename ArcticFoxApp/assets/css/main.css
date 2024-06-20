@@ -2,16 +2,15 @@ header{
 
 }
 
-img{
-  max-width: 100%;
-}
+
 
 .banner{
   position: relative;
 }
 
 .banner img{
-  height: 50px;
+  max-width: 100%;
+  height: 50%;
 }
 
 .banner .welcome{
