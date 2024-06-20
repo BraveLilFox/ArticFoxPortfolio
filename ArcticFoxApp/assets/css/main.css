@@ -2,7 +2,11 @@ header{
 
 }
 
-banner{
+.banner{
   position: relative;
   top: 200px;
+}
+
+.banner img{
+  max-width: 100%;
 }
