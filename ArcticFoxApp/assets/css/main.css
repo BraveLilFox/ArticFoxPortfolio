@@ -2,12 +2,16 @@ header{
 
 }
 
+img{
+  max-width: 100%;
+}
+
 .banner{
   position: relative;
 }
 
-img{
-  max-width: 100%;
+.banner img{
+  max-height: 75%;
 }
 
 .banner .welcome{
