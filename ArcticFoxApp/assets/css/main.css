@@ -4,9 +4,12 @@ header{
 
 .banner{
   position: relative;
-  top: 200px;
 }
 
 .banner img{
   max-width: 100%;
+}
+
+.banner .welcome{
+  position: absolute;
 }
