@@ -10,10 +10,6 @@ img{
   position: relative;
 }
 
-.banner .brick{
-  max-width: 100%;
-}
-
 .banner .welcome{
   position: absolute;
   left: 0;
