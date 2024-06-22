@@ -19,5 +19,6 @@ img{
 .banner .cover-photo{
   width: 30rem;
   height: auto;
-  margin: 1.5rem auto;
+  top: 20rem;
+  left: 50rem;
 }
