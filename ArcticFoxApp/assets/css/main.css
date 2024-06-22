@@ -17,5 +17,7 @@ img{
 }
 
 .banner .cover-photo{
+  width: 15rem;
+  height: auto;
   left: 20rem;
 }
