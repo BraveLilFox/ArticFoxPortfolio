@@ -16,9 +16,10 @@ img{
   top: 16rem;
 }
 
-.banner .cover-photo{
+.cover-photo{
   width: 30rem;
   height: auto;
+  position: absolute;
   top: 20rem;
   left: 50rem;
 }
