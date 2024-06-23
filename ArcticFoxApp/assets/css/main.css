@@ -3,6 +3,8 @@ header{
   padding: 5rem;
   text-align: center;
   width: 100%;
+  /*more value = bring forward, less bring backward*/
+  z-index: 5;
 }
 
 img{
