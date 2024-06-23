@@ -1,4 +1,5 @@
 header{
+  background-color: #495867;
   position: fixed;
   padding: 2rem auto;
   text-align: center;
@@ -16,7 +17,7 @@ img{
 }
 
 .banner .welcome{
-  background-color: gray;
+  background-color: rgba(73,88,103,0.5);
   position: absolute;
   left: 5rem;
   top: 12rem;
