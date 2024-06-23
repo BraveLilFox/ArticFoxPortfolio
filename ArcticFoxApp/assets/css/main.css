@@ -1,5 +1,8 @@
 header{
-  position: relative;
+  position: fixed;
+  padding: 5rem;
+  text-align: center;
+  width: 100%;
 }
 
 img{
@@ -12,7 +15,6 @@ img{
 
 .banner .welcome{
   background-color: gray;
-  opacity: .1%;
   position: absolute;
   left: 5rem;
   top: 12rem;
