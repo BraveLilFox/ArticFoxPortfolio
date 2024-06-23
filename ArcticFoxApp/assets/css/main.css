@@ -1,6 +1,6 @@
 header{
   position: fixed;
-  padding: 5rem;
+  padding: 2rem auto;
   text-align: center;
   width: 100%;
   /*more value = bring forward, less bring backward*/
