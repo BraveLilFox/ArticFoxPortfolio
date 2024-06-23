@@ -8,6 +8,14 @@ header{
   z-index: 5;
 }
 
+header h1{
+  color: #F7F7FF;
+  border: 4px solid #F7F7FF;
+  padding: 1.5rem auto;
+  display: inline-block;
+  border-radius: 10px;
+}
+
 img{
   max-width: 100%;
 }
