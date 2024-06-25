@@ -47,6 +47,8 @@ img{
 
 .navbar {
   background-color: red;
+  padding: 20px;
+  position: sticky;
   .navbar-sections{
     white-space: nowrap;
     max-width: 1200px;
@@ -57,5 +59,11 @@ img{
     display: inline-block;
     font-size: 20px;
     text-align: center;
+  }
+  a{
+    text-decoration: none;
+    .join{
+      color: white;
+    }
   }
 }
