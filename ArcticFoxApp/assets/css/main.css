@@ -51,4 +51,14 @@ img{
 
 .navbar {
   background-color: red;
+  .navbar-sections{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section{
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+  }
 }
