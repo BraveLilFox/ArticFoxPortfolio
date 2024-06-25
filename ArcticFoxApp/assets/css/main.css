@@ -6,14 +6,13 @@ header{
   width: 100%;
   /*more value = bring forward, less bring backward*/
   z-index: 5;
-}
-
-header h1{
-  color: #F7F7FF;
-  border: 4px solid #F7F7FF;
-  padding: 1.5rem auto;
-  display: inline-block;
-  border-radius: 10px;
+  h1{
+    color: #F7F7FF;
+    border: 4px solid #F7F7FF;
+    padding: 1.5rem auto;
+    display: inline-block;
+    border-radius: 10px;
+  }
 }
 
 img{
@@ -22,14 +21,20 @@ img{
 
 .banner{
   position: relative;
-}
-
-.banner .welcome{
-  background-color: rgba(73,88,103,0.5);
-  position: absolute;
-  left: 5rem;
-  top: 12rem;
-  padding: 2rem;
+  .banner .welcome{
+    background-color: rgba(73,88,103,0.5);
+    position: absolute;
+    left: 5rem;
+    top: 12rem;
+    padding: 2rem;
+  }
+  h2{
+    font-size: 50px;
+    color: white;
+    span{
+      font-size: 75px;
+    }
+  }
 }
 
 .cover-photo{
@@ -38,15 +43,6 @@ img{
   position: absolute;
   top: 2.5rem;
   right: 5rem;
-}
-
-.banner h2{
-  font-size: 50px;
-  color: white;
-}
-
-.banner h2 span{
-  font-size: 1.3rem;
 }
 
 .navbar {
