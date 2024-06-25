@@ -56,6 +56,6 @@ img{
     width: 20%;
     display: inline-block;
     font-size: 20px;
-    margin: 0 auto;
+    text-align: center;
   }
 }
