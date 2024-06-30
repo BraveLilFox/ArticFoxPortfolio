@@ -48,7 +48,6 @@ img{
 .navbar {
   background-color: red;
   padding: 20px;
-  position: sticky;
   .navbar-sections{
     white-space: nowrap;
     max-width: 1200px;
