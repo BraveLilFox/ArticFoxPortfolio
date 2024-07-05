@@ -1,3 +1,3 @@
 let fullName = "Kaide";
 
-document
+document.getElementById("myH1").textContent = fullName;
