@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
 #counterContainer{
     padding: 2em 1em;
     width: 50%;
@@ -11,7 +14,7 @@
     display: block;
     text-align: center;
     font-size: 10em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Orbitron';
 }
 
 #btnContainer{
