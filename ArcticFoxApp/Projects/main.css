@@ -1,0 +1,33 @@
+#counterContainer{
+    padding: 2em 1em;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    background-color:aquamarine;
+    box-shadow: 10px 10px lightslategray;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.btn{
+    padding: .5em 1em;
+    font-size: .9em;
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: greenyellow;
+}
